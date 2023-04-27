@@ -22,7 +22,7 @@ export function Flags({ color, info }: { color?: string; info?: boolean }) {
 
   return (
     <section
-      className={`sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 ${
+      className={`grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 ${
         info ? '' : 'gap-1'
       }`}
     >
@@ -39,7 +39,7 @@ export function Flags({ color, info }: { color?: string; info?: boolean }) {
               <div className="relative">
                 <Image
                   src={`/img/flags/${country.code}.svg`}
-                  className="h-72 object-cover sm:h-36 md:h-36 lg:h-36 xl:h-40"
+                  className="h-40 object-cover sm:h-52 md:h-52 lg:h-52 xl:h-64"
                   alt=""
                   width={500}
                   height={500}
