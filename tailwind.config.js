@@ -16,6 +16,9 @@ module.exports = {
       colors: {
         africamaps: '#AACADE',
       },
+      aspectRatio: {
+        '4/3': '4 / 3',
+      },
       fontFamily: {
         sans: ['var(--font-sans)', ...fontFamily.sans],
       },

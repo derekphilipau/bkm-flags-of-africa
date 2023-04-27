@@ -12,11 +12,7 @@ export default function Page() {
     <PageWrapper className="overflow-hidden">
       <section className="relative">
         <div className="h-screen w-full">
-          <Image
-            src="/img/flags/Map_of_Africa_with_flags.svg"
-            alt=""
-            fill={true}
-          />
+          <Image src="/img/Map_of_Africa_with_flags.svg" alt="" fill={true} />
         </div>
       </section>
     </PageWrapper>

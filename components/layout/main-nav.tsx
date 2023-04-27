@@ -28,7 +28,6 @@ export function MainNav() {
     if (color) params.push(`color=${color}`);
     if (!info) params.push(`info=true`);
     const url = `/?${params.join('&')}`;
-    console.log(url);
     router.push(url);
   }
 
