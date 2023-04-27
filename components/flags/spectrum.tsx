@@ -238,7 +238,7 @@ export function Spectrum() {
   }
 
   return (
-    <div className="flex h-24 w-full ">
+    <div className="flex h-24 w-full">
       <div
         className="flex h-full w-full cursor-pointer items-center justify-center"
         onClick={() => clickColor()}

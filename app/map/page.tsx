@@ -11,8 +11,13 @@ export default function Page() {
   return (
     <PageWrapper className="overflow-hidden">
       <section className="relative">
-        <div className="h-screen w-full">
-          <Image src="/img/Map_of_Africa_with_flags.svg" alt="" fill={true} />
+        <div className="flex h-screen justify-end">
+          <Image
+            src="/img/Map_of_Africa_with_flags.svg"
+            alt=""
+            height={800}
+            width={800}
+          />
         </div>
       </section>
     </PageWrapper>
