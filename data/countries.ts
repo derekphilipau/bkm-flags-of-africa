@@ -424,4 +424,66 @@ export const countries = [
       'The Mauritian flag consists of four horizontal stripes of equal width: red on the top, blue in the middle, followed by yellow and green. Red symbolizes the blood shed for independence, blue represents the Indian Ocean that surrounds the island nation, yellow signifies the light of independence shining over the country, and green represents the lush vegetation and agriculture of Mauritius.',
     colors: ['red', 'green', 'blue', 'yellow'],
   },
+  {
+    code: 'sz',
+    name: 'Eswatini',
+    summary:
+      'Blue, yellow, red stripes, shield, spears for peace, wealth, struggle, protection.',
+    description:
+      "The flag of Eswatini consists of horizontal stripes of blue, yellow, and red, with a black and white shield and two spears at the center. Blue symbolizes peace and stability, yellow represents the country's mineral wealth, and red signifies the struggle for independence. The black and white shield and spears represent protection and the peaceful coexistence of different ethnic groups in the country.",
+    colors: ['red', 'green', 'blue', 'yellow', 'white', 'black'],
+  },
+  {
+    code: 'dj',
+    name: 'Djibouti',
+    summary:
+      'Blue, green stripes, white triangle, red star for sky, earth, peace, unity.',
+    description:
+      'The Djiboutian flag features two horizontal stripes of light blue and light green, with a white isosceles triangle on the left side bearing a red, five-pointed star. The light blue symbolizes the sky and the sea, representing the Issa Somali people. The light green signifies the earth and represents the Afar people. The white triangle represents peace, and the red star symbolizes unity.',
+    colors: ['red', 'green', 'blue', 'yellow', 'white', 'black'],
+  },
+  {
+    code: 'km',
+    name: 'Comoros',
+    summary:
+      'Stripes, green triangle, crescent, stars for islands, Islam, unity.',
+    description:
+      'The Comorian flag has four horizontal stripes of yellow, white, red, and blue, with a green isosceles triangle on the left side bearing a white, crescent moon and four, five-pointed stars. Each color represents one of the four islands that make up the country: yellow for Mohéli, white for Mayotte, red for Anjouan, and blue for Grande Comore. The green triangle symbolizes Islam, the predominant religion, and the crescent and stars represent the islands and their unity.',
+    colors: ['red', 'green', 'blue', 'yellow', 'white', 'black'],
+  },
+  {
+    code: 'eh',
+    name: 'Western Sahara',
+    summary:
+      'Stripes, triangle, star, crescent for people, peace, Islam, struggle.',
+    description:
+      'The flag of the Sahrawi Arab Democratic Republic (claimed by Western Sahara) consists of three horizontal stripes of black, white, and green, with a red isosceles triangle on the left side. A red, five-pointed star and crescent appear in the center of the white stripe. Black represents the people, white signifies peace and optimism, green symbolizes Islam, and red represents the struggle for independence. The star and crescent are traditional Islamic symbols.',
+    colors: ['red', 'green', 'blue', 'yellow', 'white', 'black'],
+  },
+  {
+    code: 'cv',
+    name: 'Cabo Verde',
+    summary:
+      'Blue field, red stripe, circle of stars for ocean, struggle, unity.',
+    description:
+      'The Cape Verdean flag features a blue field with a red horizontal stripe and a white circle of ten, five-pointed stars in the center. The blue symbolizes the sky and the Atlantic Ocean surrounding the archipelago, the red represents the struggle for independence, and the circle of stars symbolizes the ten islands that make up the country, united in a circle of solidarity and democracy.',
+    colors: ['red', 'green', 'blue', 'yellow', 'white', 'black'],
+  },
+  {
+    code: 'st',
+    name: 'São Tomé and Príncipe',
+    summary:
+      'Stripes, triangle, stars for vegetation, cocoa, struggle, islands.',
+    description:
+      'The flag of São Tomé and Príncipe has three horizontal stripes of green, yellow, and green, with a red isosceles triangle on the left side. Two black, five-pointed stars appear on the yellow stripe. Green represents the lush vegetation of the islands, yellow symbolizes the abundant cocoa production, and red signifies the struggle for independence. The black stars represent the two main islands of São Tomé and Príncipe.',
+    colors: ['red', 'green', 'blue', 'yellow', 'white', 'black'],
+  },
+  {
+    code: 'sc',
+    name: 'Seychelles',
+    summary: 'Oblique bands for sky, sea, unity, social justice, environment.',
+    description:
+      "The Seychellois flag features five oblique bands of blue, yellow, red, white, and green. Blue symbolizes the sky and the sea, yellow represents the sun, red signifies the people's love and determination for unity and independence, white stands for social justice and harmony, and green represents the country's rich natural environment.",
+    colors: ['red', 'green', 'blue', 'yellow', 'white', 'black'],
+  },
 ];

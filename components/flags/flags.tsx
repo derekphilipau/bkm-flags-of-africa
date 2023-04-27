@@ -52,8 +52,8 @@ export function Flags({ color, info }: { color?: string; info?: boolean }) {
               </div>
               {info && (
                 <div className="mb-4 mt-2 text-base font-bold text-white">
-                  <h3 className="text-xl">{country?.name}</h3>
-                  <p className="text-neutral-300">{country?.summary}</p>
+                  <h3 className="text-2xl">{country?.name}</h3>
+                  <p className="text-lg text-neutral-300">{country?.summary}</p>
                 </div>
               )}
             </div>
