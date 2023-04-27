@@ -41,24 +41,27 @@ export function MainNav() {
           {dict['site.title']}
         </Link>
       </div>
-      <nav className="flex lg:mt-12 lg:block" aria-label="Main menu">
+      <nav
+        className="flex flex-wrap gap-x-8 lg:mt-12 lg:block"
+        aria-label="Main menu"
+      >
         <div
           onClick={() => clickInfo()}
-          className="my-4 flex w-full cursor-pointer items-center justify-center rounded-md py-4 text-4xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100"
+          className="my-4 flex cursor-pointer items-center justify-center rounded-md py-4 text-4xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:w-full"
         >
           <Icons.info className="mr-4 h-10 w-10" />
           {dict['nav.info']}
         </div>
         <Link
           href="/map"
-          className="my-4 flex w-full cursor-pointer items-center justify-center rounded-md py-4 text-4xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100"
+          className="my-4 flex cursor-pointer items-center justify-center rounded-md py-4 text-4xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:w-full"
         >
           <Icons.map className="mr-4 h-10 w-10" />
           {dict['nav.map']}
         </Link>
         <Link
           href="/about"
-          className="my-4 flex w-full cursor-pointer items-center justify-center rounded-md py-4 text-4xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100"
+          className="my-4 flex cursor-pointer items-center justify-center rounded-md py-4 text-4xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:w-full"
         >
           <Icons.helpCircle className="mr-4 h-10 w-10" />
           {dict['nav.about']}

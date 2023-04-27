@@ -6,224 +6,156 @@ import { Icons } from '../icons';
 
 const flagColors = [
   {
-    name: 'white',
-    color: '#ffffff',
+    color: 'white',
+    values: ['#fff', '#fffdfd', '#fffdff', '#fffefe', '#ffffff', '#ffffff'],
   },
   {
-    name: 'white',
-    color: '#f5f5f5',
+    color: 'red',
+    values: [
+      '#b00',
+      '#b10c0c',
+      '#bc0000',
+      '#be0027',
+      '#c00',
+      '#c1272d',
+      '#c4111b',
+      '#c70000',
+      '#cd2a3e',
+      '#ce1021',
+      '#ce1126',
+      '#cf0921',
+      '#d21034',
+      '#d40000',
+      '#d80000',
+      '#d92223',
+      '#da121a',
+      '#de0000',
+      '#de2010',
+      '#de2110',
+      '#de3108',
+      '#de3908',
+      '#de3929',
+      '#e1392d',
+      '#e32118',
+      '#e70013',
+      '#ee2737',
+      '#ef2118',
+      '#f00',
+      '#f31509',
+      '#f41408',
+      '#fc3d32',
+      '#ff0000',
+    ],
   },
   {
-    name: 'white',
-    color: '#eaeaea',
+    color: 'orange',
+    values: [
+      '#e05206',
+      '#ef7d00',
+      '#f7d618',
+      '#ff9a00',
+      '#ffb915',
+      '#ffc400',
+      '#ffc621',
+      '#ffca00',
+      '#ffcd00',
+      '#ffce00',
+      '#ffce08',
+      '#ffd200',
+      '#ffd600',
+      '#ffd900',
+      '#ffe300',
+      '#ffe700',
+      '#ffec00',
+      '#fff300',
+    ],
   },
   {
-    name: 'white',
-    color: '#d9d9d9',
+    color: 'yellow',
+    values: [
+      '#c09300',
+      '#e5be01',
+      '#f3e295',
+      '#fad201',
+      '#fc0',
+      '#fcd116',
+      '#fcd955',
+      '#fcdd09',
+      '#fe0',
+      '#ff0',
+      '#FFD700',
+      '#fffefe',
+    ],
   },
   {
-    name: 'red',
-    color: '#ef4444',
+    color: 'green',
+    values: [
+      '#006233',
+      '#006400',
+      '#006b3f',
+      '#007847',
+      '#007a39',
+      '#007a3d',
+      '#007a5e',
+      '#007e3a',
+      '#090',
+      '#008753',
+      '#009543',
+      '#009a00',
+      '#009a3b',
+      '#009e49',
+      '#00a04d',
+      '#00ca00',
+      '#00cd00',
+      '#060',
+      '#078930',
+      '#0b7226',
+      '#0c0',
+      '#0db02b',
+      '#118600',
+      '#12ad2b',
+      '#20603d',
+      '#21873b',
+      '#239e46',
+      '#298c08',
+      '#319400',
+      '#35a100',
+      '#36a100',
+      '#38a100',
+      '#3e9a00',
+    ],
   },
   {
-    name: 'red',
-    color: '#b91c1c',
+    color: 'blue',
+    values: [
+      '#000067',
+      '#0000cd',
+      '#000c8a',
+      '#00209f',
+      '#009',
+      '#003d88',
+      '#006',
+      '#006bc6',
+      '#006dbc',
+      '#0073ce',
+      '#007fff',
+      '#00a1de',
+      '#00cbff',
+      '#00f',
+      '#09f',
+      '#0f47af',
+      '#151f6d',
+      '#181f6d',
+      '#3662a2',
+      '#3b5aa3',
+      '#3e5eb9',
+      '#40a6ff',
+      '#69f',
+    ],
   },
   {
-    name: 'red',
-    color: '#7f1d1d',
-  },
-  {
-    name: 'red',
-    color: '#f05252',
-  },
-  {
-    name: 'red',
-    color: '#e32626',
-  },
-  {
-    name: 'red',
-    color: '#c21818',
-  },
-  {
-    name: 'red',
-    color: '#a51a1a',
-  },
-  {
-    name: 'red',
-    color: '#9c1f1f',
-  },
-  {
-    name: 'red',
-    color: '#841e1e',
-  },
-  {
-    name: 'red',
-    color: '#6a2020',
-  },
-  {
-    name: 'red',
-    color: '#581b1b',
-  },
-  {
-    name: 'orange',
-    color: '#ea580c',
-  },
-  {
-    name: 'orange',
-    color: '#9a3412',
-  },
-  {
-    name: 'orange',
-    color: '#f16a1d',
-  },
-  {
-    name: 'orange',
-    color: '#d6530a',
-  },
-  {
-    name: 'orange',
-    color: '#b8460e',
-  },
-  {
-    name: 'orange',
-    color: '#ff7a33',
-  },
-  {
-    name: 'yellow',
-    color: '#fde047',
-  },
-  {
-    name: 'yellow',
-    color: '#eab308',
-  },
-  {
-    name: 'yellow',
-    color: '#ca8a04',
-  },
-  {
-    name: 'yellow',
-    color: '#ffd32a',
-  },
-  {
-    name: 'yellow',
-    color: '#f4c425',
-  },
-  {
-    name: 'yellow',
-    color: '#d9b006',
-  },
-  {
-    name: 'yellow',
-    color: '#ebdd3d',
-  },
-  {
-    name: 'yellow',
-    color: '#b69400',
-  },
-  {
-    name: 'green',
-    color: '#22c55e',
-  },
-  {
-    name: 'green',
-    color: '#15803d',
-  },
-  {
-    name: 'green',
-    color: '#166534',
-  },
-  {
-    name: 'green',
-    color: '#2ad573',
-  },
-  {
-    name: 'green',
-    color: '#1e9a4b',
-  },
-  {
-    name: 'green',
-    color: '#0f8c3a',
-  },
-  {
-    name: 'green',
-    color: '#29e08d',
-  },
-  {
-    name: 'green',
-    color: '#0c7a31',
-  },
-  {
-    name: 'green',
-    color: '#126e42',
-  },
-  {
-    name: 'green',
-    color: '#1a5a3a',
-  },
-  {
-    name: 'green',
-    color: '#104c28',
-  },
-  {
-    name: 'blue',
-    color: '#60a5fa',
-  },
-  {
-    name: 'blue',
-    color: '#2563eb',
-  },
-  {
-    name: 'blue',
-    color: '#1e40af',
-  },
-  {
-    name: 'blue',
-    color: '#4b9cf9',
-  },
-  {
-    name: 'blue',
-    color: '#2f74e7',
-  },
-  {
-    name: 'blue',
-    color: '#0f5edc',
-  },
-  {
-    name: 'blue',
-    color: '#73b0ff',
-  },
-  {
-    name: 'blue',
-    color: '#1947c1',
-  },
-  {
-    name: 'blue',
-    color: '#153c9e',
-  },
-  {
-    name: 'blue',
-    color: '#1a338b',
-  },
-  {
-    name: 'blue',
-    color: '#102767',
-  },
-  {
-    name: 'black',
-    color: '#0d0d0d',
-  },
-  {
-    name: 'black',
-    color: '#1a1a1a',
-  },
-  {
-    name: 'black',
-    color: '#1e1e1e',
-  },
-  {
-    name: 'black',
-    color: '#000000',
+    color: 'black',
+    values: ['#333', '#000', '#111', '#000000', '#222'],
   },
 ];
 
@@ -243,15 +175,19 @@ export function Spectrum() {
         className="flex h-full w-full cursor-pointer items-center justify-center"
         onClick={() => clickColor()}
       >
-        <Icons.circleSlashed className="h-12 w-12 mx-4" />
+        <Icons.circleSlashed className="mx-4 h-12 w-12" />
       </div>
-      {flagColors.map((color) => (
-        <div
-          key={color.color}
-          className="h-full w-full cursor-pointer"
-          style={{ backgroundColor: color.color }}
-          onClick={() => clickColor(color.name)}
-        />
+      {flagColors.map((colorGroup) => (
+        <>
+          {colorGroup.values.map((color) => (
+            <div
+              key={color}
+              className="h-full w-full cursor-pointer"
+              style={{ backgroundColor: color }}
+              onClick={() => clickColor(colorGroup.color)}
+            />
+          ))}
+        </>
       ))}
     </div>
   );
