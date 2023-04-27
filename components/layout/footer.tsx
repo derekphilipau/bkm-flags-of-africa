@@ -1,10 +1,6 @@
 import Link from 'next/link';
 import { getDictionary } from '@/dictionaries/dictionaries';
 
-import type { NavItem } from '@/types/nav';
-import { cn } from '@/lib/utils';
-import { Input } from '../ui/input';
-
 export function Footer() {
   const dict = getDictionary(); // en
 
