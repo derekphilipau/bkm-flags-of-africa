@@ -41,29 +41,54 @@ export function MainNav() {
           {dict['site.title']}
         </Link>
       </div>
-      <div className="my-8">
+      <div className="mt-12">
         <nav className="" aria-label="Main menu">
           <div
             onClick={() => clickInfo()}
-            className="my-6 flex cursor-pointer items-center text-4xl font-semibold hover:text-neutral-100"
+            className="my-8 flex cursor-pointer items-center text-4xl font-semibold hover:text-neutral-100"
           >
             <Icons.info className="mr-4 h-10 w-10" />
             {dict['nav.info']}
           </div>
           <Link
-            href="/about"
-            className="my-6 flex items-center text-4xl font-semibold hover:text-neutral-100"
-          >
-            <Icons.helpCircle className="mr-4 h-10 w-10" />
-            {dict['nav.about']}
-          </Link>
-          <Link
             href="/map"
-            className="my-6 flex items-center text-4xl font-semibold hover:text-neutral-100"
+            className="my-8 flex items-center text-4xl font-semibold hover:text-neutral-100"
           >
             <Icons.map className="mr-4 h-10 w-10" />
             {dict['nav.map']}
           </Link>
+          <Link
+            href="/about"
+            className="my-8 flex items-center text-4xl font-semibold hover:text-neutral-100"
+          >
+            <Icons.helpCircle className="mr-4 h-10 w-10" />
+            {dict['nav.about']}
+          </Link>
+          <div className="my-8 flex items-start text-4xl">
+            <div className="flex items-start">
+              <Icons.languages className="mr-4 h-10 w-10" />
+            </div>
+            <div>
+              <Link
+                href="/?lang=en"
+                className="flex items-center text-4xl font-semibold hover:text-neutral-100"
+              >
+                English
+              </Link>
+              <Link
+                href="/?lang=es"
+                className="mt-4 flex items-center text-4xl font-semibold hover:text-neutral-100"
+              >
+                Español
+              </Link>
+              <Link
+                href="/?lang=zh"
+                className="mt-4 flex items-center text-4xl font-semibold hover:text-neutral-100"
+              >
+                中文
+              </Link>
+            </div>
+          </div>
         </nav>
       </div>
 

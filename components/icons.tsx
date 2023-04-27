@@ -8,6 +8,7 @@ import {
   HelpCircle,
   Info,
   Instagram,
+  Languages,
   Laptop,
   LayoutGrid,
   LayoutList,
@@ -48,4 +49,5 @@ export const Icons = {
   circleSlashed: CircleSlashed,
   helpCircle: HelpCircle,
   map: Map,
+  languages: Languages,
 };
