@@ -21,12 +21,18 @@ export function Flags({ color, info }: { color?: string; info?: boolean }) {
   }
 
   return (
-    <section className="sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+    <section
+      className={`sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 ${
+        info ? '' : 'gap-1'
+      }`}
+    >
       {filteredCountries.map(
         (country, index) =>
           country?.code && (
             <div
-              className="cursor-pointer"
+              className={`cursor-pointer hover:bg-neutral-700 ${
+                info ? 'p-3' : ''
+              }`}
               key={index}
               onClick={() => clickFlag(country.code)}
             >
