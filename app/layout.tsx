@@ -59,7 +59,7 @@ export default async function RootLayout({
       <head />
       <body className="min-h-screen bg-neutral-800 font-sans text-neutral-50 antialiased">
         <div>
-          <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
+          <div className=" lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
             <MainNav />
           </div>
           <div className="lg:pl-72">

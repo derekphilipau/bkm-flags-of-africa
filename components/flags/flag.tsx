@@ -38,21 +38,23 @@ export function Flag({ countryCode }: { countryCode: string }) {
 
   return (
     <section className="">
-      <div className="relative">
-        {country?.code && (
-          <div className="w-full overflow-hidden">
-            <Image
-              src={`/img/flags/${country.code}.svg`}
-              className="cursor-pointer object-cover"
-              alt=""
-              width={500}
-              height={500}
-            />
-          </div>
-        )}
-        <h1 className="mt-4 mb-2 text-6xl font-bold">{country?.name}</h1>
-        <p className="mb-8 text-3xl text-neutral-300">{country?.summary}</p>
-        <p className="text-2xl text-neutral-300">{country?.description}</p>
+      <div className="relative mt-0">
+        <div className="pt-20 lg:pt-0">
+          {country?.code && (
+            <div className="w-full overflow-hidden">
+              <Image
+                src={`/img/flags/${country.code}.svg`}
+                className="cursor-pointer object-cover"
+                alt=""
+                width={500}
+                height={500}
+              />
+            </div>
+          )}
+          <h1 className="mt-4 mb-2 text-6xl font-bold">{country?.name}</h1>
+          <p className="mb-8 text-3xl text-neutral-300">{country?.summary}</p>
+          <p className="text-2xl text-neutral-300">{country?.description}</p>
+        </div>
         <div className="absolute right-0 top-0 flex gap-x-2">
           <Button
             onClick={() => goPrevious()}
