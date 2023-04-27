@@ -44,6 +44,11 @@ export function Flags({ color, info }: { color?: string; info?: boolean }) {
                   width={500}
                   height={500}
                 />
+                {!info && (
+                  <div className="absolute inset-0 z-10 flex items-center justify-center p-4 text-3xl font-semibold text-black opacity-0 duration-300 hover:bg-white/70 hover:opacity-100">
+                    {country?.name}
+                  </div>
+                )}
               </div>
               {info && (
                 <div className="mb-4 mt-2 text-base font-bold text-white">
