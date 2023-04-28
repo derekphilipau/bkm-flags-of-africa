@@ -44,7 +44,7 @@ export function Flag({ countryCode }: { countryCode: string }) {
             <div className="w-full overflow-hidden">
               <Image
                 src={`/img/flags/${country.code}.svg`}
-                className="cursor-pointer object-cover"
+                className="aspect-4/3 object-cover "
                 alt=""
                 width={500}
                 height={500}

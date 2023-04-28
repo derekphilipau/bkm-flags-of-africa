@@ -39,11 +39,12 @@ export function Flags({ color, info }: { color?: string; info?: boolean }) {
               <div className="relative">
                 <Image
                   src={`/img/flags/${country.code}.svg`}
-                  className="h-40 object-cover sm:h-52 md:h-52 lg:h-52 xl:h-64"
+                  className="aspect-4/3 object-cover "
                   alt=""
-                  width={500}
-                  height={500}
+                  width={800}
+                  height={800}
                 />
+
                 {!info && (
                   <div className="absolute inset-0 z-10 flex items-center justify-center p-4 text-3xl font-semibold text-black opacity-0 duration-300 hover:bg-white/70 hover:opacity-100">
                     {country?.name}

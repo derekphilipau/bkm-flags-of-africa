@@ -6,6 +6,8 @@ import {
   CircleSlashed,
   Expand,
   HelpCircle,
+  Home,
+  Hourglass,
   Info,
   Instagram,
   Languages,
@@ -22,6 +24,7 @@ import {
   SlidersHorizontal,
   SunMedium,
   Twitter,
+  Unlink,
   type Icon as LucideIcon,
 } from 'lucide-react';
 
@@ -50,4 +53,7 @@ export const Icons = {
   helpCircle: HelpCircle,
   map: Map,
   languages: Languages,
+  unlink: Unlink,
+  hourglass: Hourglass,
+  home: Home,
 };
