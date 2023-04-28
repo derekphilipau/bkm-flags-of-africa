@@ -14,7 +14,7 @@ export function MainNav() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const dict = getDictionary();
-  const info = searchParams?.get('info');
+  const info = searchParams?.get('info') === 'true' ? true : false;
   const color = searchParams?.get('color');
 
   function clickInfo(checked) {
@@ -68,7 +68,7 @@ export function MainNav() {
           {dict['nav.about']}
         </Link>
         {pathname === '/' && (
-          <div className="my-4 flex items-center justify-center rounded-md py-4 text-4xl font-semibold transition-colors lg:w-full">
+          <div className="my-4 flex items-center rounded-md p-4 text-4xl font-semibold transition-colors lg:w-full">
             <Switch
               id="switch-info"
               onCheckedChange={(checked) => clickInfo(checked)}
