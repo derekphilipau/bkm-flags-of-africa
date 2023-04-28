@@ -1,33 +1,25 @@
-import Link from 'next/link';
-import { getDictionary } from '@/dictionaries/dictionaries';
+'use client';
+
+import { usePathname } from 'next/navigation';
+
+import { Spectrum } from '@/components/flags/spectrum';
+import { TimelineFooter } from '../timeline-footer';
 
 export function Footer() {
-  const dict = getDictionary(); // en
+  const pathname = usePathname();
 
   return (
-    <div className="container p-6">
-      <div className="mt-10 md:flex md:items-center md:justify-between md:space-x-6">
-        <div>
-          <Link
-            href="/"
-            className="mb-2 flex items-center space-x-2 text-xl font-bold"
-          >
-            {dict['site.title']}
-          </Link>
-          <p className="text-xs">{dict['footer.text']}</p>
+    <>
+      {pathname === '/' && (
+        <div className="fixed bottom-0 left-0 z-50 h-24 w-full bg-neutral-800 shadow-[0_10px_10px_15px_rgba(0,0,0,0.4)]">
+          <Spectrum />
         </div>
-        <div className="mt-6 md:mt-0">
-          <h5 className="mb-2 text-lg">{dict['footer.marketing.text']}</h5>
+      )}
+      {pathname === '/timeline' && (
+        <div className="hidden lg:block fixed bottom-0 left-0 z-50 h-24 w-full bg-neutral-800 shadow-[0_10px_10px_15px_rgba(0,0,0,0.4)]">
+          <TimelineFooter />
         </div>
-      </div>
-      <nav className="mt-6 mb-10 flex gap-6" aria-label="Main menu">
-        <Link
-          href="/about"
-          className="flex items-center text-lg font-semibold text-neutral-600 hover:text-neutral-900 dark:text-neutral-100 sm:text-sm"
-        >
-          {dict['nav.about']}
-        </Link>
-      </nav>
-    </div>
+      )}
+    </>
   );
 }

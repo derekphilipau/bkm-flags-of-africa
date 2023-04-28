@@ -57,7 +57,7 @@ export default function Page() {
                   </div>
                 </div>
                 <div className="absolute left-1/2 flex h-20 w-20 -translate-y-4 -translate-x-1/2 items-center justify-center rounded-full border-4 border-white bg-blue-500 text-3xl font-bold sm:translate-y-0">
-                  {country.year}
+                  <a href={`#timeline-${country.year}`}>{country.year}</a>
                 </div>
               </div>
             </div>

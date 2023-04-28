@@ -1,9 +1,8 @@
 import { PT_Sans, PT_Sans_Narrow } from 'next/font/google';
 
-import { Footer } from '@/components/layout/footer';
 import { SiteHeader } from '@/components/layout/site-header';
 import './globals.css';
-import { Spectrum } from '@/components/flags/spectrum';
+import { Footer } from '@/components/layout/footer';
 import { MainNav } from '@/components/layout/main-nav';
 
 // If loading a variable font, you don't need to specify the font weight
@@ -66,9 +65,7 @@ export default async function RootLayout({
             <main className="">{children}</main>
           </div>
         </div>
-        <div className="fixed bottom-0 left-0 z-50 h-24 w-full bg-neutral-800 shadow-[0_10px_10px_15px_rgba(0,0,0,0.4)]">
-          <Spectrum />
-        </div>
+        <Footer />
       </body>
     </html>
   );
