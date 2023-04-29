@@ -6,7 +6,7 @@ export default async function Page({ params }) {
 
   return (
     <PageWrapper className="overflow-hidden">
-      <div className="mb-24 p-6">
+      <div className="mb-4 p-6">
         <Flag countryCode={countryCode} />
       </div>
     </PageWrapper>

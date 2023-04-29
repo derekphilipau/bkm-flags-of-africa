@@ -1,11 +1,13 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { countries } from '@/data/countries';
 import { getDictionary } from '@/dictionaries/dictionaries';
 
 import { Button } from '@/components/ui/button';
+import { BkmLogo } from '../bkm-logo';
 import { Icons } from '../icons';
 
 export function Flag({ countryCode }: { countryCode: string }) {
@@ -51,11 +53,15 @@ export function Flag({ countryCode }: { countryCode: string }) {
               />
             </div>
           )}
-          <h1 className="mt-4 mb-2 text-8xl font-bold">{country?.name}</h1>
-          <p className="mt-8 mb-12 text-5xl text-neutral-300">
+          <h1 className="mt-4 mb-2 text-6xl font-bold lg:text-8xl">
+            {country?.name}
+          </h1>
+          <p className="mt-8 mb-12 text-3xl italic text-neutral-300 lg:text-5xl">
             {country?.summary}
           </p>
-          <p className="text-3xl text-neutral-300">{country?.description}</p>
+          <p className="text-2xl text-neutral-300 lg:text-3xl">
+            {country?.description}
+          </p>
         </div>
         <div className="absolute right-0 top-0 flex gap-x-2">
           <Button
@@ -81,6 +87,9 @@ export function Flag({ countryCode }: { countryCode: string }) {
           </Button>
         </div>
       </div>
+      <Link href="https://brooklynmuseum.org">
+        <BkmLogo className="mt-20 w-96 fill-neutral-600" />
+      </Link>
     </section>
   );
 }

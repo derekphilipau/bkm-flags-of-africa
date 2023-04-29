@@ -36,39 +36,39 @@ export function MainNav() {
         </Link>
       </div>
       <nav
-        className="flex flex-wrap gap-x-8 lg:mt-12 lg:block"
+        className="flex flex-wrap gap-x-2 lg:mt-12 lg:block lg:gap-x-8"
         aria-label="Main menu"
       >
         <Link
           href="/"
-          className="my-4 flex cursor-pointer items-center rounded-md p-4 text-4xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:w-full"
+          className="my-2 flex cursor-pointer items-center rounded-md p-4 text-2xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:my-4 lg:w-full lg:text-4xl"
         >
-          <Icons.home className="mr-4 h-10 w-10" />
+          <Icons.home className="mr-2 h-6 w-6 lg:mr-4 lg:h-10 lg:w-10" />
           {dict['nav.home']}
         </Link>
         <Link
           href="/timeline"
-          className="my-4 flex cursor-pointer items-center rounded-md p-4 text-4xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:w-full"
+          className="my-2 flex cursor-pointer items-center rounded-md p-4 text-2xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:my-4 lg:w-full lg:text-4xl"
         >
-          <Icons.hourglass className="mr-4 h-10 w-10" />
+          <Icons.hourglass className="mr-2 h-6 w-6 lg:mr-4 lg:h-10 lg:w-10" />
           {dict['nav.timeline']}
         </Link>
         <Link
           href="/map"
-          className="my-4 flex cursor-pointer items-center rounded-md p-4 text-4xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:w-full"
+          className="my-2 flex cursor-pointer items-center rounded-md p-4 text-2xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:my-4 lg:w-full lg:text-4xl"
         >
-          <Icons.map className="mr-4 h-10 w-10" />
+          <Icons.map className="mr-2 h-6 w-6 lg:mr-4 lg:h-10 lg:w-10" />
           {dict['nav.map']}
         </Link>
         <Link
           href="/about"
-          className="my-4 flex cursor-pointer items-center rounded-md p-4 text-4xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:w-full"
+          className="my-2 flex cursor-pointer items-center rounded-md p-4 text-2xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:my-4 lg:w-full lg:text-4xl"
         >
-          <Icons.helpCircle className="mr-4 h-10 w-10" />
+          <Icons.helpCircle className="mr-2 h-6 w-6 lg:mr-4 lg:h-10 lg:w-10" />
           {dict['nav.about']}
         </Link>
         {pathname === '/' && (
-          <div className="my-4 flex items-center rounded-md p-4 text-4xl font-semibold transition-colors lg:w-full">
+          <div className="my-2 flex items-center rounded-md p-4 text-2xl font-semibold transition-colors lg:my-4 lg:w-full lg:text-4xl">
             <Switch
               id="switch-info"
               onCheckedChange={(checked) => clickInfo(checked)}
@@ -78,7 +78,7 @@ export function MainNav() {
             <Label
               htmlFor="switch-info"
               id="label-switch-info"
-              className="ml-4 text-4xl font-semibold leading-none hover:text-neutral-100 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              className="ml-4 text-2xl font-semibold leading-none hover:text-neutral-100 peer-disabled:cursor-not-allowed peer-disabled:opacity-70 lg:text-4xl"
             >
               {dict['nav.info']}
             </Label>
@@ -88,13 +88,13 @@ export function MainNav() {
         {/*
         <Link
           href="/?lang=es"
-          className="my-4 hidden w-full cursor-pointer items-center rounded-md py-4 text-4xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:flex"
+          className="my-4 hidden w-full cursor-pointer items-center rounded-md py-4 text-2xl lg:text-4xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:flex"
         >
           Español
         </Link>
         <Link
           href="/?lang=zh"
-          className="my-4 hidden w-full cursor-pointer items-center rounded-md py-4 text-4xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:flex"
+          className="my-4 hidden w-full cursor-pointer items-center rounded-md py-4 text-2xl lg:text-4xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:flex"
         >
           中文
         </Link>

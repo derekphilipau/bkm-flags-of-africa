@@ -19,6 +19,12 @@ module.exports = {
       aspectRatio: {
         '4/3': '4 / 3',
       },
+      scale: {
+        175: '1.75',
+        200: '2',
+        250: '2.5',
+        300: '3',
+      },
       fontFamily: {
         sans: ['var(--font-sans)', ...fontFamily.sans],
       },
