@@ -67,7 +67,7 @@ export default function Page() {
       </p>
 
       <Link href="https://brooklynmuseum.org">
-        <BkmLogo className="mt-20 w-96 fill-neutral-600" />
+        <BkmLogo className="mt-20 w-96 fill-neutral-400" />
       </Link>
     </section>
   );

@@ -11,7 +11,7 @@ export function Footer() {
   return (
     <>
       {pathname === '/' && (
-        <div className="fixed bottom-0 left-0 z-50 h-24 w-full bg-neutral-800 shadow-[0_10px_10px_15px_rgba(0,0,0,0.4)]">
+        <div className="fixed bottom-0 left-0 z-50 h-16 w-full bg-neutral-800 shadow-[0_10px_10px_15px_rgba(0,0,0,0.4)] lg:h-24">
           <Spectrum />
         </div>
       )}

@@ -5,6 +5,7 @@ import {
   ChevronUp,
   CircleSlashed,
   Expand,
+  Flag,
   HelpCircle,
   Home,
   Hourglass,
@@ -56,4 +57,5 @@ export const Icons = {
   unlink: Unlink,
   hourglass: Hourglass,
   home: Home,
+  flag: Flag,
 };

@@ -1,6 +1,5 @@
 import { PT_Sans, PT_Sans_Narrow } from 'next/font/google';
 
-import { SiteHeader } from '@/components/layout/site-header';
 import './globals.css';
 import { Footer } from '@/components/layout/footer';
 import { MainNav } from '@/components/layout/main-nav';
@@ -58,7 +57,7 @@ export default async function RootLayout({
       <head />
       <body className="min-h-screen bg-neutral-800 font-sans text-neutral-50 antialiased">
         <div>
-          <div className=" lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
+          <div className="lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
             <MainNav />
           </div>
           <div className="lg:pl-72">

@@ -1,6 +1,6 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 
 import { Icons } from '../icons';
 
@@ -161,6 +161,8 @@ const flagColors = [
 
 export function Spectrum() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const currentColor = searchParams.get('color');
 
   function clickColor(colorName?: string) {
     if (!colorName) {
@@ -170,13 +172,15 @@ export function Spectrum() {
   }
 
   return (
-    <div className="flex h-24 w-full">
-      <div
-        className="flex h-full w-full cursor-pointer items-center justify-center"
-        onClick={() => clickColor()}
-      >
-        <Icons.circleSlashed className="mx-4 h-12 w-12" />
-      </div>
+    <div className="flex h-16 w-full lg:h-24">
+      {currentColor && (
+        <div
+          className="flex h-full w-full cursor-pointer items-center justify-center"
+          onClick={() => clickColor()}
+        >
+          <Icons.circleSlashed className="mx-4 h-8 w-8 lg:h-12 lg:w-12" />
+        </div>
+      )}
       {flagColors.map((colorGroup) => (
         <>
           {colorGroup.values.map((color) => (

@@ -43,8 +43,8 @@ export function MainNav() {
           href="/"
           className="my-2 flex cursor-pointer items-center rounded-md p-4 text-2xl font-semibold transition-colors hover:bg-neutral-700 hover:text-neutral-100 lg:my-4 lg:w-full lg:text-4xl"
         >
-          <Icons.home className="mr-2 h-6 w-6 lg:mr-4 lg:h-10 lg:w-10" />
-          {dict['nav.home']}
+          <Icons.flag className="mr-2 h-6 w-6 lg:mr-4 lg:h-10 lg:w-10" />
+          {dict['nav.flags']}
         </Link>
         <Link
           href="/timeline"
