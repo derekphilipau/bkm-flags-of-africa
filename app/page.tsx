@@ -37,7 +37,7 @@ export default async function Page({ params, searchParams }) {
           <h2 className={getColorClass(color)}>{getColorName(color)}</h2>
         )}
         <Flags color={color} info={info} />
-        <BkmLogo className="mt-20 w-96 fill-neutral-400" />
+        <BkmLogo />
       </div>
     </PageWrapper>
   );

@@ -65,7 +65,7 @@ export default function Page() {
         and determination.
       </p>
 
-      <BkmLogo className="mt-20 w-96 fill-neutral-400" />
+      <BkmLogo />
     </section>
   );
 }

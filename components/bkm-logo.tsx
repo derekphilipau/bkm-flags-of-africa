@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-export function BkmLogo({ className }) {
+export function BkmLogo({ className }: { className?: string }) {
   return (
     <Link href="https://brooklynmuseum.org">
       <svg
-        className={`${className} mt-24 w-96 fill-neutral-600 hover:fill-neutral-400`}
+        className={`${className} p-4 lg:p-0 w-60 mt-24 fill-neutral-600 hover:fill-neutral-400 lg:w-96`}
         id="Layer_1"
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"

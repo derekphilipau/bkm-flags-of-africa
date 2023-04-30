@@ -86,7 +86,7 @@ export function Flag({ countryCode }: { countryCode: string }) {
           </Button>
         </div>
       </div>
-      <BkmLogo className="mt-20 w-96 fill-neutral-400" />
+      <BkmLogo />
     </section>
   );
 }
