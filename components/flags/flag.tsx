@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { countries } from '@/data/countries';
 import { getDictionary } from '@/dictionaries/dictionaries';
@@ -87,9 +86,7 @@ export function Flag({ countryCode }: { countryCode: string }) {
           </Button>
         </div>
       </div>
-      <Link href="https://brooklynmuseum.org">
-        <BkmLogo className="mt-20 w-96 fill-neutral-400" />
-      </Link>
+      <BkmLogo className="mt-20 w-96 fill-neutral-400" />
     </section>
   );
 }

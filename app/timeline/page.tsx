@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import { timeline } from '@/data/timeline';
 import { getDictionary } from '@/dictionaries/dictionaries';
 
@@ -18,7 +17,7 @@ export default function Page() {
         Africa’s fifty-four nations toward independence as well as the aftermath
         of decolonization in the decades that followed.
       </p>
-      <div className="w-full ">
+      <div className="w-full">
         <div className="relative text-sm antialiased">
           <div className="absolute left-1/2 hidden h-full w-1 -translate-x-1/2 bg-blue-300 md:block"></div>
 
@@ -65,9 +64,7 @@ export default function Page() {
           ))}
         </div>
       </div>
-      <Link href="https://brooklynmuseum.org">
-        <BkmLogo className="mt-20 w-96 fill-neutral-400" />
-      </Link>
+      <BkmLogo className="mt-20 w-96 fill-neutral-400" />
     </div>
   );
 }

@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import { BkmLogo } from '@/components/bkm-logo';
 import { Flags } from '@/components/flags/flags';
 import { PageWrapper } from '@/components/page-wrapper';
@@ -22,7 +20,7 @@ export default async function Page({ params, searchParams }) {
       case 'blue':
         return cls + 'text-blue-600';
       case 'black':
-        return cls + 'text-black';
+        return cls + 'text-white';
       case 'white':
         return cls + 'text-white';
     }
@@ -39,9 +37,7 @@ export default async function Page({ params, searchParams }) {
           <h2 className={getColorClass(color)}>{getColorName(color)}</h2>
         )}
         <Flags color={color} info={info} />
-        <Link href="https://brooklynmuseum.org">
-          <BkmLogo className="mt-20 w-96 fill-neutral-400" />
-        </Link>
+        <BkmLogo className="mt-20 w-96 fill-neutral-400" />
       </div>
     </PageWrapper>
   );

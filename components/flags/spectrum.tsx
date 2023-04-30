@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 
 import { Icons } from '../icons';
@@ -7,7 +8,16 @@ import { Icons } from '../icons';
 const flagColors = [
   {
     color: 'white',
-    values: ['#fff', '#fffdfd', '#fffdff', '#fffefe', '#ffffff', '#ffffff'],
+    values: [
+      '#fff',
+      '#eee',
+      '#fffdfd',
+      '#fffdff',
+      '#fffefe',
+      '#ffffff',
+      '#eee',
+      '#ffffff',
+    ],
   },
   {
     color: 'red',
@@ -182,16 +192,32 @@ export function Spectrum() {
         </div>
       )}
       {flagColors.map((colorGroup) => (
-        <>
-          {colorGroup.values.map((color) => (
+        <Link
+          href={`/?color=${colorGroup.color}`}
+          key={colorGroup.color}
+          className="flex h-16 w-full lg:h-24"
+        >
+          {colorGroup.values.map((color, index) => (
             <div
-              key={color}
+              key={index}
               className="h-full w-full cursor-pointer"
               style={{ backgroundColor: color }}
-              onClick={() => clickColor(colorGroup.color)}
             />
           ))}
-        </>
+          {currentColor === colorGroup.color && (
+            <div className="relative z-10">
+              <div className="absolute top-2 right-2">
+                {currentColor === 'white' ||
+                currentColor === 'orange' ||
+                currentColor === 'yellow' ? (
+                  <Icons.pipette className="h-6 w-6 text-black lg:h-10 lg:w-10" />
+                ) : (
+                  <Icons.pipette className="h-6 w-6 text-white lg:h-10 lg:w-10" />
+                )}
+              </div>
+            </div>
+          )}
+        </Link>
       ))}
     </div>
   );

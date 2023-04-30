@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { getDictionary } from '@/dictionaries/dictionaries';
 
 import { BkmLogo } from '@/components/bkm-logo';
@@ -66,9 +65,7 @@ export default function Page() {
         and determination.
       </p>
 
-      <Link href="https://brooklynmuseum.org">
-        <BkmLogo className="mt-20 w-96 fill-neutral-400" />
-      </Link>
+      <BkmLogo className="mt-20 w-96 fill-neutral-400" />
     </section>
   );
 }
