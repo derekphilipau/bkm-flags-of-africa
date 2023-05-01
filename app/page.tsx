@@ -1,9 +1,13 @@
+import { flagSymbols } from '@/data/symbols';
+
 import { BkmLogo } from '@/components/bkm-logo';
 import { Flags } from '@/components/flags/flags';
 import { PageWrapper } from '@/components/page-wrapper';
 
 export default async function Page({ params, searchParams }) {
   const color = searchParams?.color;
+  const symbol = searchParams?.symbol;
+  const flagSymbol = flagSymbols.find((s) => s.name === symbol);
 
   function getColorClass(color) {
     const cls = 'pl-3 lg:pl-0 text-6xl lg:text-8xl lg:mt-6 font-bold mb-4 ';
@@ -34,6 +38,18 @@ export default async function Page({ params, searchParams }) {
       <div className="mb-24">
         {color && (
           <h2 className={getColorClass(color)}>{getColorName(color)}</h2>
+        )}
+        {symbol && symbol !== 'all' && (
+          <>
+            <h2 className="pl-3 lg:pl-0 text-6xl lg:text-8xl lg:mt-6 font-bold mb-4 text-white">
+              {symbol}
+            </h2>
+            {flagSymbol && (
+              <p className="mb-8 text-2xl text-neutral-300 lg:text-4xl">
+                {flagSymbol.text}
+              </p>
+            )}
+          </>
         )}
         <Flags color={color} info={true} />
         <BkmLogo />
