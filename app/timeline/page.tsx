@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { timeline } from '@/data/timeline';
+import { countries } from '@/data/countries';
 import { getDictionary } from '@/dictionaries/dictionaries';
 
 import { BkmLogo } from '@/components/bkm-logo';
@@ -7,8 +7,18 @@ import { BkmLogo } from '@/components/bkm-logo';
 export default function Page() {
   const dict = getDictionary();
 
+  const countriesByYear = {};
+  countries.forEach((country) => {
+    if (country.year) {
+      if (!countriesByYear[country.year]) {
+        countriesByYear[country.year] = [];
+      }
+      countriesByYear[country.year].push(country);
+    }
+  });
+
   return (
-    <div className="mb-24 grid items-center gap-6 pt-6 pb-8 lg:py-10">
+    <div className="mb-24 lg:py-6  lg:pr-4">
       <div className="px-4 lg:px-0">
         <h2 className="text-6xl font-semibold lg:text-8xl">
           Timeline of Independence
@@ -22,45 +32,38 @@ export default function Page() {
       <div className="w-full">
         <div className="relative text-sm antialiased">
           <div className="absolute left-1/2 hidden h-full w-1 -translate-x-1/2 bg-blue-300 lg:block"></div>
-
-          {timeline.map((country, index) => (
-            <div className="mt-6 lg:mt-0 lg:mb-12" key={index}>
-              <div className="flex flex-col items-center lg:flex-row">
-                <div
-                  className={`mx-auto flex w-full items-center ${
-                    index % 2 ? 'justify-end' : 'justify-start'
-                  }`}
-                >
-                  <div
-                    className={`w-full lg:w-1/2 ${
-                      index % 2 ? 'lg:pl-14' : 'lg:pr-14'
-                    }`}
-                  >
-                    <div className="rounded bg-neutral-700 p-4 shadow">
-                      <div className="w-32">
-                        <Image
-                          src={`/img/flags/${country.code}.svg`}
-                          className="aspect-4/3 object-cover"
-                          alt=""
-                          width={800}
-                          height={800}
-                        />
-                      </div>
-                      <h3 className="my-4 text-4xl font-bold lg:text-6xl">
-                        {country.name}
-                      </h3>
-                      <h5 className="my-4 text-2xl italic text-neutral-300 lg:text-4xl">
-                        {country.date}
-                      </h5>
-                      <p className="my-4 text-xl text-neutral-300 lg:text-2xl">
-                        {country.text}
-                      </p>
-                    </div>
+          {Object.keys(countriesByYear).map((year, index) => (
+            <div className="mt-6 lg:mt-0 lg:mb-4" key={index}>
+              <div className="mb-6 grid w-full grid-cols-1">
+                <div className="flex w-full justify-center">
+                  <div className="flex h-24 w-24 items-center justify-center rounded-full border-4 border-white bg-blue-500 text-4xl font-bold lg:translate-y-0">
+                    <a href={`#timeline-${year}`}>{year}</a>
                   </div>
                 </div>
-                <div className="absolute left-1/2 flex h-20 w-20 -translate-y-4 -translate-x-1/2 items-center justify-center rounded-full border-4 border-white bg-blue-500 text-3xl font-bold lg:translate-y-0">
-                  <a href={`#timeline-${country.year}`}>{country.year}</a>
-                </div>
+              </div>
+              <div className="grid w-full grid-cols-1 content-start gap-x-16 gap-y-4 lg:grid-cols-2">
+                {countriesByYear[year].map((country, index) => (
+                  <div className="w-full rounded-lg bg-neutral-700 p-4 shadow">
+                    <div className="w-32">
+                      <Image
+                        src={`/img/flags/${country.code}.svg`}
+                        className="aspect-4/3 object-cover"
+                        alt=""
+                        width={800}
+                        height={800}
+                      />
+                    </div>
+                    <h3 className="my-4 text-4xl font-bold lg:text-6xl">
+                      {country.name}
+                    </h3>
+                    <h5 className="my-4 text-2xl italic text-neutral-300 lg:text-4xl">
+                      {country.date}
+                    </h5>
+                    <p className="my-4 text-xl text-neutral-300 lg:text-2xl">
+                      {country.text}
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
           ))}

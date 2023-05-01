@@ -4,7 +4,6 @@ import { PageWrapper } from '@/components/page-wrapper';
 
 export default async function Page({ params, searchParams }) {
   const color = searchParams?.color;
-  const info = searchParams?.info ? true : false;
 
   function getColorClass(color) {
     const cls = 'pl-3 lg:pl-0 text-6xl lg:text-8xl lg:mt-6 font-bold mb-4 ';
@@ -36,7 +35,7 @@ export default async function Page({ params, searchParams }) {
         {color && (
           <h2 className={getColorClass(color)}>{getColorName(color)}</h2>
         )}
-        <Flags color={color} info={info} />
+        <Flags color={color} info={true} />
         <BkmLogo />
       </div>
     </PageWrapper>

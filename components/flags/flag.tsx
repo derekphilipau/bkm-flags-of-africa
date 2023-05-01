@@ -56,10 +56,16 @@ export function Flag({ countryCode }: { countryCode: string }) {
             {country?.name}
           </h1>
           <p className="mt-8 mb-12 text-3xl italic text-neutral-300 lg:text-5xl">
-            {country?.summary}
+            {country?.colorText}
           </p>
           <p className="text-2xl text-neutral-300 lg:text-3xl">
-            {country?.description}
+            {country?.flagText}
+          </p>
+          <h5 className="mt-8 mb-12 text-3xl italic text-neutral-300 lg:text-5xl">
+            {country.date}
+          </h5>
+          <p className="text-2xl text-neutral-300 lg:text-3xl">
+            {country.text}
           </p>
         </div>
         <div className="absolute right-0 top-0 flex gap-x-2">

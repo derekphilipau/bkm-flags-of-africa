@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { timeline } from '@/data/timeline';
+import { countries } from '@/data/countries';
 
 import { Icons } from './icons';
 
@@ -16,7 +16,7 @@ export function TimelineFooter() {
   }
 
   // Get unique years in timeline:
-  const years = [...new Set(timeline.map((country) => country.year))];
+  const years = [...new Set(countries.map((country) => country.year))];
 
   return (
     <div className="h-full px-6">
