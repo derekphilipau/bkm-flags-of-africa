@@ -9,35 +9,31 @@ import { Icons } from '../icons';
 const flagSymbols = [
   {
     name: 'Star',
-    icon: <Icons.star className="mr-2 h-6 w-6 lg:mr-4 lg:h-14 lg:w-14" />,
+    icon: <Icons.star className="h-6 w-6 lg:h-14 lg:w-14" />,
   },
   {
     name: 'Stripes',
-    icon: (
-      <Icons.alignJustify className="mr-2 h-6 w-6 lg:mr-4 lg:h-14 lg:w-14" />
-    ),
+    icon: <Icons.alignJustify className="h-6 w-6 lg:h-14 lg:w-14" />,
   },
   {
-    name: 'Stripes',
-    icon: (
-      <Icons.alignJustify className="mr-2 h-6 w-6 rotate-90 lg:mr-4 lg:h-14 lg:w-14" />
-    ),
+    name: 'Vertical',
+    icon: <Icons.alignJustify className="h-6 w-6 rotate-90 lg:h-14 lg:w-14" />,
   },
   {
     name: 'Circle',
-    icon: <Icons.circle className="mr-2 h-6 w-6 lg:mr-4 lg:h-14 lg:w-14" />,
+    icon: <Icons.circle className="h-6 w-6 lg:h-14 lg:w-14" />,
   },
   {
     name: 'Crescent',
-    icon: <Icons.moon className="mr-2 h-6 w-6 lg:mr-4 lg:h-14 lg:w-14" />,
+    icon: <Icons.moon className="h-6 w-6 lg:h-14 lg:w-14" />,
   },
   {
     name: 'Sword',
-    icon: <Icons.slice className="mr-2 h-6 w-6 lg:mr-4 lg:h-14 lg:w-14" />,
+    icon: <Icons.slice className="h-6 w-6 lg:h-14 lg:w-14" />,
   },
   {
     name: 'Bird',
-    icon: <BirdIcon className="mr-2 h-6 w-6 lg:mr-4 lg:h-14 lg:w-14" />,
+    icon: <BirdIcon className="h-6 w-6 lg:h-14 lg:w-14" />,
   },
 ];
 
@@ -233,12 +229,16 @@ export function FlagsFooter() {
             className="flex h-full w-full cursor-pointer items-center justify-center text-africamaps hover:text-white"
             onClick={() => clickColor()}
           >
-            <Icons.palette className="mr-2 h-6 w-6 lg:mr-4 lg:h-14 lg:w-14" />
+            <Icons.palette className="h-6 w-6 lg:h-14 lg:w-14" />
           </div>
           {flagSymbols.map((symbol) => (
             <div
               key={symbol.name}
-              className="flex h-full w-full cursor-pointer items-center justify-center text-africamaps hover:text-white"
+              className={`flex h-full w-full cursor-pointer items-center justify-center ${
+                currentSymbol === symbol.name
+                  ? 'text-white'
+                  : 'text-africamaps hover:text-white'
+              }`}
               onClick={() => clickSymbol(symbol.name)}
             >
               {symbol.icon}
@@ -252,7 +252,7 @@ export function FlagsFooter() {
             className="flex h-full w-full cursor-pointer items-center justify-center"
             onClick={() => clickSymbol('all')}
           >
-            <Icons.star className="mr-2 h-6 w-6 lg:mr-4 lg:h-14 lg:w-14" />
+            <Icons.star className="h-6 w-6 lg:h-14 lg:w-14" />
           </div>
           {flagColors.map((colorGroup) => (
             <div

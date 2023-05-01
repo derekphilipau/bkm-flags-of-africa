@@ -1,5 +1,6 @@
 import {
   AlignJustify,
+  Check,
   ChevronDown,
   ChevronLeft,
   ChevronRight,
@@ -66,4 +67,5 @@ export const Icons = {
   alignJustify: AlignJustify,
   circle: Circle,
   slice: Slice,
+  check: Check,
 };

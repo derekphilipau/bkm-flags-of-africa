@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { countries } from '@/data/countries';
 import { getDictionary } from '@/dictionaries/dictionaries';
 
@@ -43,26 +44,28 @@ export default function Page() {
               </div>
               <div className="grid w-full grid-cols-1 content-start gap-x-16 gap-y-4 lg:grid-cols-2">
                 {countriesByYear[year].map((country, index) => (
-                  <div className="w-full rounded-lg bg-neutral-700 p-4 shadow">
-                    <div className="w-32">
-                      <Image
-                        src={`/img/flags/${country.code}.svg`}
-                        className="aspect-4/3 object-cover"
-                        alt=""
-                        width={800}
-                        height={800}
-                      />
+                  <Link href={`/flag/${country.code}`} key={index}>
+                    <div className="w-full cursor-pointer rounded-lg bg-neutral-700 p-4 shadow hover:bg-neutral-600">
+                      <div className="w-32">
+                        <Image
+                          src={`/img/flags/${country.code}.svg`}
+                          className="aspect-4/3 object-cover"
+                          alt=""
+                          width={800}
+                          height={800}
+                        />
+                      </div>
+                      <h3 className="my-4 text-4xl font-bold lg:text-6xl">
+                        {country.name}
+                      </h3>
+                      <h5 className="my-4 text-2xl italic text-neutral-300 lg:text-4xl">
+                        {country.date}
+                      </h5>
+                      <p className="my-4 text-xl text-neutral-300 lg:text-2xl">
+                        {country.text}
+                      </p>
                     </div>
-                    <h3 className="my-4 text-4xl font-bold lg:text-6xl">
-                      {country.name}
-                    </h3>
-                    <h5 className="my-4 text-2xl italic text-neutral-300 lg:text-4xl">
-                      {country.date}
-                    </h5>
-                    <p className="my-4 text-xl text-neutral-300 lg:text-2xl">
-                      {country.text}
-                    </p>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </div>
