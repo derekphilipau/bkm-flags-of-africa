@@ -220,7 +220,7 @@ export function FlagsFooter() {
 
   function clickSymbol(symbolName?: string) {
     if (!symbolName || symbolName === currentSymbol) {
-      return router.push('/');
+      return router.push('/?symbol=all');
     }
     router.push(`/?symbol=${symbolName}`);
   }
