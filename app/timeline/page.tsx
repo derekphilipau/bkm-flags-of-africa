@@ -34,7 +34,7 @@ export default function Page() {
           <div className="absolute left-1/2 hidden h-full w-1 -translate-x-1/2 bg-blue-300 lg:block"></div>
           {Object.keys(countriesByYear).map((year, index) => (
             <div className="mt-6 lg:mt-0 lg:mb-4" key={index}>
-              <div className="mb-6 grid w-full grid-cols-1">
+              <div className="sticky top-2 mb-6 grid w-full grid-cols-1">
                 <div className="flex w-full justify-center">
                   <div className="flex h-24 w-24 items-center justify-center rounded-full border-4 border-white bg-blue-500 text-4xl font-bold lg:translate-y-0">
                     <a href={`#timeline-${year}`}>{year}</a>
