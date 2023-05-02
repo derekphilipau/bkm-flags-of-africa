@@ -50,7 +50,30 @@ export function Flag({
   return (
     <section className="">
       <div className="relative mt-0">
-        <div className="pt-20 lg:pt-0">
+        <div className="lg:justify-normal flex w-full items-center justify-between gap-x-2 lg:absolute lg:right-0 lg:top-0 lg:w-fit">
+          <Button
+            onClick={() => goPrevious()}
+            className="min-w-0 px-0 py-8"
+            aria-label="Previous flag"
+          >
+            <Icons.chevronLeft className="mx-4 h-12 w-12 text-africamaps" />
+          </Button>
+          <Button
+            onClick={() => goHome()}
+            className="min-w-0 px-0 py-8"
+            aria-label="Previous flag"
+          >
+            <Icons.chevronUp className="mx-4 h-12 w-12 text-africamaps" />
+          </Button>
+          <Button
+            onClick={() => goNext()}
+            className="min-w-0 px-0 py-8"
+            aria-label="Previous flag"
+          >
+            <Icons.chevronRight className="mx-4 h-12 w-12 text-africamaps" />
+          </Button>
+        </div>
+        <div className="pt-4 lg:pt-0">
           {country?.code && (
             <div className="w-full overflow-hidden">
               <Image
@@ -83,29 +106,6 @@ export function Flag({
           <p className="text-2xl text-neutral-300 lg:text-2xl">
             {country.text}
           </p>
-        </div>
-        <div className="absolute right-0 top-0 flex gap-x-2">
-          <Button
-            onClick={() => goPrevious()}
-            className="min-w-0 px-0 py-8"
-            aria-label="Previous flag"
-          >
-            <Icons.chevronLeft className="mx-4 h-12 w-12 text-africamaps" />
-          </Button>
-          <Button
-            onClick={() => goHome()}
-            className="min-w-0 px-0 py-8"
-            aria-label="Previous flag"
-          >
-            <Icons.chevronUp className="mx-4 h-12 w-12 text-africamaps" />
-          </Button>
-          <Button
-            onClick={() => goNext()}
-            className="min-w-0 px-0 py-8"
-            aria-label="Previous flag"
-          >
-            <Icons.chevronRight className="mx-4 h-12 w-12 text-africamaps" />
-          </Button>
         </div>
       </div>
       <BkmLogo />
