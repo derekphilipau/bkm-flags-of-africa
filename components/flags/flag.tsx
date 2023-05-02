@@ -9,7 +9,13 @@ import { Button } from '@/components/ui/button';
 import { BkmLogo } from '../bkm-logo';
 import { Icons } from '../icons';
 
-export function Flag({ countryCode }: { countryCode: string }) {
+export function Flag({
+  countryCode,
+  isFromTimeline,
+}: {
+  countryCode: string;
+  isFromTimeline?: boolean;
+}) {
   const dict = getDictionary();
   const router = useRouter();
 
@@ -34,6 +40,10 @@ export function Flag({ countryCode }: { countryCode: string }) {
   }
 
   function goHome() {
+    if (isFromTimeline) {
+      router.push('/timeline');
+      return;
+    }
     router.push('/');
   }
 

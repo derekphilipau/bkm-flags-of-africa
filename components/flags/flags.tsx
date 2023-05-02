@@ -16,8 +16,8 @@ export function Flags({ color, info }: { color?: string; info?: boolean }) {
     );
   }
 
-  function clickFlag(countryId: string) {
-    router.push(`/flag/${countryId}`);
+  function clickFlag(countryCode: string, countryName: string) {
+    router.push(`/flag/${countryCode}/${countryName}`);
   }
 
   return (
@@ -34,7 +34,7 @@ export function Flags({ color, info }: { color?: string; info?: boolean }) {
                 info ? 'p-3' : ''
               }`}
               key={index}
-              onClick={() => clickFlag(country.code)}
+              onClick={() => clickFlag(country.code, country.name)}
             >
               <div className="relative">
                 <Image

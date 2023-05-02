@@ -44,7 +44,10 @@ export default function Page() {
               </div>
               <div className="grid w-full grid-cols-1 content-start gap-x-16 gap-y-4 lg:grid-cols-2">
                 {countriesByYear[year].map((country, index) => (
-                  <Link href={`/flag/${country.code}`} key={index}>
+                  <Link
+                    href={`/flag/${country.code}/${country.name}?timeline=true`}
+                    key={index}
+                  >
                     <div className="w-full cursor-pointer rounded-lg bg-neutral-700 p-4 shadow hover:bg-neutral-600">
                       <div className="w-32">
                         <Image

@@ -9,7 +9,7 @@ export const countries = [
       'Red, white stripes, blue square, star for independence, Africa, freedom.',
     flagText:
       'Designed and hand stitched by a committee of seven prominent Liberian women, the flag closely resembles the flag of the United States, representing Liberia’s founding by Freeman and formerly enslaved people from the United States and Caribbean.',
-    colors: ['red', 'blue', 'white'],
+    colors: ['Red', 'Blue', 'White'],
     rgb: ['#fff', '#006', '#c00'],
   },
   {
@@ -22,7 +22,7 @@ export const countries = [
       'Red, white, black for freedom struggle, peaceful revolution, end of oppression.',
     flagText:
       'Since the 1952 Revolution, the Eagle of Saladin, which appears on the Egyptian flag adopted in 1984, has served as a symbol of Egyptian sovereignty and Pan-Arab nationalism.',
-    colors: ['red', 'white', 'black'],
+    colors: ['Red', 'White', 'Black'],
     rgb: ['#fff', '#c09300', '#000'],
   },
   {
@@ -35,7 +35,7 @@ export const countries = [
       'Green, yellow, red for land, peace, sacrifice; blue circle, gold star for unity, future.',
     flagText:
       "The Ethiopian flag features horizontal stripes of green, yellow, and red, with a blue circle and gold star in the center. The green represents the fertility of the land, the yellow symbolizes religious freedom and peace, and the red stands for the sacrifice of those who fought for the country's independence. The blue circle symbolizes unity, and the gold star represents the bright future of the nation. The Ethiopian flag is one of the oldest in Africa and has inspired many other African flags, particularly through its use of Pan-African colors.",
-    colors: ['red', 'green', 'blue', 'yellow'],
+    colors: ['Red', 'Green', 'Blue', 'Yellow'],
     rgb: ['#ffc621', '#ef2118', '#298c08', '#006bc6', '#ffc621'],
   },
   {
@@ -48,7 +48,7 @@ export const countries = [
       'Red, black, green stripes, crescent, star for freedom, people, Islam.',
     flagText:
       'The national flag was originally introduced in 1951, following the establishment of the Kingdom of Libya. It was not used between the fall of the Kingdom in 1961 and Muammar al-Gaddafi’s deposition in 2011. The crescent and star that appear on the black band harken back to the flag of the Senussi dynasty, who helped lead the country to independence.',
-    colors: ['red', 'green', 'white', 'black'],
+    colors: ['Red', 'Green', 'White', 'Black'],
     rgb: ['#239e46', '#e70013', '#fff'],
   },
   {
@@ -61,7 +61,7 @@ export const countries = [
       'Red, white, black stripes, green triangle for freedom, peace, land, Islam.',
     flagText:
       'Based on the Arab Liberation flag of the Egyptian Revolution of 1952, Sudan’s flag displays the four colors associated with Pan-Arabism, a movement emphasizing Arab unity and independence.',
-    colors: ['red', 'green', 'white', 'black'],
+    colors: ['Red', 'Green', 'White', 'Black'],
     rgb: ['#fff', '#ff0000', '#009a00', '#000'],
   },
   {
@@ -74,7 +74,7 @@ export const countries = [
       'Red field, white circle, crescent, star for blood, purity, Islam.',
     flagText:
       'Tunisia’s flag was adopted in 1831 to distinguish Tunisian naval fleets from foreign fleets. The flag was maintained throughout the French Protectorate and independence to the present day. The flag’s crescent and star signify the country’s official religion, Islam.',
-    colors: ['red', 'white'],
+    colors: ['Red', 'White'],
     rgb: ['#e70013', '#fff'],
   },
   {
@@ -87,7 +87,7 @@ export const countries = [
       'Red for valor, green pentagram for Islam, unity, and royal Alaouite dynasty.',
     flagText:
       'The red background of the Moroccan flag derives from the ʿAlawi dynasty, who ruled as sultans from the seventeenth century until French and Spanish occupation began in 1912. The green pentagram at the center of the flag is known as the “Seal of Solomon” and represents the five pillars of Islam.',
-    colors: ['red', 'green'],
+    colors: ['Red', 'Green'],
     rgb: ['#c1272d', '#006233'],
   },
   {
@@ -100,7 +100,7 @@ export const countries = [
       'Red, gold, green for blood, wealth, agriculture; black star for African freedom.',
     flagText:
       'Designed by renowned Ghanaian artist Theodosia Okoh, the flag employs decolonial imagery including the colors of the Pan-African movement and a black star intended to represent African unity against colonialism.',
-    colors: ['red', 'green', 'yellow', 'black'],
+    colors: ['Red', 'Green', 'Yellow', 'Black'],
     rgb: ['#006b3f', '#fcd116', '#ce1126', '#000'],
   },
   {
@@ -112,7 +112,7 @@ export const countries = [
     colorText: 'Red, yellow, green stripes for struggle, wealth, vegetation.',
     flagText:
       "Upon independence from France in 1958, Guinea adopted the colors of the Pan-African movement for their flag. The red is said to represent the blood shed during the struggle for independence, yellow the country’s mineral wealth, and green the country's vegetation.",
-    colors: ['red', 'green', 'yellow'],
+    colors: ['Red', 'Green', 'Yellow'],
     rgb: ['#ff0000', '#ff0', '#090'],
   },
   {
@@ -125,7 +125,7 @@ export const countries = [
       'Green, red, yellow stripes for forests, unity, savannas; star for national unity.',
     flagText:
       "The green, yellow, and red colored bands featured on Cameroon's flag respectively reference the forests of the South, savannahs of the north, and national unity achieved through independence.",
-    colors: ['red', 'green', 'yellow'],
+    colors: ['Red', 'Green', 'Yellow'],
     rgb: ['#007a5e', '#ce1126', '#fcd116'],
   },
   {
@@ -138,7 +138,7 @@ export const countries = [
       'Green, yellow stripes, red square, white star for agriculture, wealth, sacrifice, hope.',
     flagText:
       'Featuring five distinct stripes, Togo’s flag represents the country’s five administrative regions while also emphasizing the nation’s unity through the portrayal of one white star in the upper left corner.',
-    colors: ['red', 'green', 'yellow', 'white'],
+    colors: ['Red', 'Green', 'Yellow', 'White'],
     rgb: ['#ffe300', '#118600', '#d80000', '#fff'],
   },
   {
@@ -151,7 +151,7 @@ export const countries = [
       'White, red for purity, sovereignty; green for hope and prosperous future.',
     flagText:
       "The colors of the flag are a tribute to Madagascar's peoples. Red and white were the colors of the Merina Kingdom, a pre-colonial state that fought French colonization. Green represents the coastal populations who fought for independence.",
-    colors: ['red', 'green', 'white'],
+    colors: ['Red', 'Green', 'White'],
     rgb: ['#fc3d32', '#007e3a', '#fff'],
   },
   {
@@ -164,7 +164,7 @@ export const countries = [
       'Green, yellow, red stripes, green star for Islam, wealth, sacrifice, unity.',
     flagText:
       'Adopted upon independence, the Senegalese flag features the colors associated with the Pan-African movement and a green star, whose color holds religious meaning for the faith traditions found in Senegal.',
-    colors: ['red', 'green', 'yellow'],
+    colors: ['Red', 'Green', 'Yellow'],
     rgb: ['#0b7226', '#ff0', '#bc0000'],
   },
   {
@@ -177,7 +177,7 @@ export const countries = [
       'Blue for peace, yellow for resources, red for independence struggle, star for unity.',
     flagText:
       'The current flag harkens back to one flown between 1961 and 1971, following the establishment of the Second Republic. The red diagonal blaze signifies the blood shed by DRC’s “martyrs.”',
-    colors: ['red', 'blue', 'yellow'],
+    colors: ['Red', 'Blue', 'Yellow'],
     rgb: ['#007fff', '#f7d618', '#ce1021'],
   },
   {
@@ -190,7 +190,7 @@ export const countries = [
       'Orange, white, green for the land, peace, hope; symbolizes national identity.',
     flagText:
       "Cote d'Ivoire's flag features stripes of orange, white, and green, which represent the country's savannas; Sassandra, Bandama, and Kamo Rivers; and lush landscapes of the south, respectively.",
-    colors: ['orange', 'green', 'white'],
+    colors: ['Orange', 'Green', 'White'],
     rgb: ['#00cd00', '#ff9a00', '#fff'],
   },
   {
@@ -203,7 +203,7 @@ export const countries = [
       'Green, yellow, red triangles for forests, friendship, independence.',
     flagText:
       "Bearing the colors of the Pan-Africanist movement, the Republic of the Congo’s flag was first adopted when the French Congo gained independence. Green represents the country's forests and yellow symbolizes its wealth.",
-    colors: ['red', 'green', 'yellow'],
+    colors: ['Red', 'Green', 'Yellow'],
     rgb: ['#ff0', '#00ca00', '#ff0000'],
   },
   {
@@ -216,7 +216,7 @@ export const countries = [
       'Light blue field, white star for sky, ocean, unity, and UN influence.',
     flagText:
       'The blue backdrop of the Somali flag honors the United Nations, which assisted the nation in achieving independence. Its central white “Star of Unity” features five points, representing the historic regions occupied by Somali people.',
-    colors: ['blue', 'white'],
+    colors: ['Blue', 'White'],
     rgb: ['#40a6ff', '#fff'],
   },
   {
@@ -228,7 +228,7 @@ export const countries = [
     colorText: 'Yellow, red, green stripes for wealth, courage, hope.',
     flagText:
       'Replacing the French tricolor flag in 1959, Benin’s flag prominently features the colors of the Pan-Africanist movement and the African Democratic Rally, a decolonial party based in French West-Africa.',
-    colors: ['red', 'green', 'yellow'],
+    colors: ['Red', 'Green', 'Yellow'],
     rgb: ['#319400', '#ffd600', '#de2110'],
   },
   {
@@ -241,7 +241,7 @@ export const countries = [
       'Green for agriculture, white for peace, symbolizing prosperity and harmony.',
     flagText:
       'The Nigerian flag is an adaptation of a winning submission designed in 1959 by Michael Taiwo Akinkunmi, a college student. The green bands represent agricultural wealth and the white band stands for peace and unity.',
-    colors: ['green', 'white'],
+    colors: ['Green', 'White'],
     rgb: ['#008753', '#FFFFFF'],
   },
   {
@@ -254,7 +254,7 @@ export const countries = [
       'Orange, white, green stripes, orange circle for desert, purity, river, sun.',
     flagText:
       'Niger’s flag represents the nation’s significant geographic features: orange denotes the Sahara desert, white symbolizes the purity of the Niger River, and green stands for the fertile regions of the south.',
-    colors: ['orange', 'green', 'white'],
+    colors: ['Orange', 'Green', 'White'],
     rgb: ['#0db02b', '#fff', '#e05206'],
   },
   {
@@ -267,7 +267,7 @@ export const countries = [
       'Green, yellow, red stripes for hope, purity, strength; independence symbolism.',
     flagText:
       'Like other West African nations formerly colonized by the French, Mali adopted the colors of the Pan-African movement for its flag. The Kanaga mask was removed from the flag in 1961 due to opposition from certain Islamic sects.',
-    colors: ['red', 'green', 'yellow'],
+    colors: ['Red', 'Green', 'Yellow'],
     rgb: ['#ff0000', '#009a00', '#ff0'],
   },
   {
@@ -280,7 +280,7 @@ export const countries = [
       'Blue, yellow, red stripes for sky, desert, progress; symbolizes independence.',
     flagText:
       'Adopted in 1959, while an autonomous member of the French Community, Chad’s flag is intended to meld the tricolor flag of France and the colors of the Pan-Africanist movement.',
-    colors: ['red', 'blue', 'yellow'],
+    colors: ['Red', 'Blue', 'Yellow'],
     rgb: ['#000067', '#ff0000', '#ff0'],
   },
   {
@@ -293,7 +293,7 @@ export const countries = [
       'Stripes, red band, yellow star for freedom, dignity, hope, unity, future.',
     flagText:
       'Featuring four horizontal bands of white, blue, green, and yellow unified by a red vertical stripe, the flag bridges both CAR’s colonial past and commitment to Pan-Africanism.',
-    colors: ['red', 'green', 'blue', 'yellow', 'white'],
+    colors: ['Red', 'Green', 'Blue', 'Yellow', 'White'],
     rgb: ['#00f', '#ff0', '#009a00', '#fff', '#f00'],
   },
   {
@@ -305,7 +305,7 @@ export const countries = [
     colorText: 'Green, yellow, blue stripes for forests, equator, ocean.',
     flagText:
       'Gabon’s flag alludes to its landscape and natural resources. The central yellow band represents the equator which passes through the country, as well as the wealth of minerals (mainly gold) found throughout the nation. The green stands for forests and the blue, the Atlantic shore.',
-    colors: ['green', 'blue', 'yellow'],
+    colors: ['Green', 'Blue', 'Yellow'],
     rgb: ['#ffe700', '#36a100', '#006dbc'],
   },
   {
@@ -317,7 +317,7 @@ export const countries = [
     colorText: 'Red, green stripes; yellow star for revolution, hope, unity.',
     flagText:
       'Like other postcolonial nations, Burkina Faso’s flag employs the colors associated with the Pan-Africanist movement. The central yellow star represents the light of decolonial revolution.',
-    colors: ['red', 'green', 'yellow'],
+    colors: ['Red', 'Green', 'Yellow'],
     rgb: ['#de0000', '#35a100', '#fff300'],
   },
   {
@@ -330,7 +330,7 @@ export const countries = [
       'Green field, yellow crescent, star for Islam, progress, future.',
     flagText:
       'Mauritania’s flag unites the colors of the Pan-African movement with a star and crescent to reflect Mauritania’s commitment to African liberation and the state religion, Islam.',
-    colors: ['red', 'green', 'yellow'],
+    colors: ['Red', 'Green', 'Yellow'],
     rgb: ['#cd2a3e', '#006233', '#ffc400'],
   },
   {
@@ -343,7 +343,7 @@ export const countries = [
       'Green, white, blue stripes for agriculture, unity, ocean, future.',
     flagText:
       'Upon independence Sierra leone adopted a tricolor flag: green represents the nation’s natural resources, blue the Atlantic Ocean and Port of Freetown, and white national union.',
-    colors: ['green', 'blue', 'white'],
+    colors: ['Green', 'Blue', 'White'],
     rgb: ['#0000cd', '#fff'],
   },
   {
@@ -356,7 +356,7 @@ export const countries = [
       'Green for vegetation, yellow for minerals, black for people, blue for Indian Ocean.',
     flagText:
       'In April 1964, the nations of Tanganyika and Zanzibar united to form Tanzania. The flags of each nation were melded to create the new national flag. The flag’s diagonal black stripe represents the people of Tanzania.',
-    colors: ['green', 'blue', 'yellow', 'black'],
+    colors: ['Green', 'Blue', 'Yellow', 'Black'],
     rgb: ['#09f', '#090', '#ff0', '#000'],
   },
   {
@@ -369,7 +369,7 @@ export const countries = [
       'Blue, yellow, green stripes, sun for peace, development, hope, unity.',
     flagText:
       'A new Rwandan flag was hoisted in 2001, as the previous flag had, for many, come to be associated with Hutu extremism and the Rwandan genocide. The flag features the country’s lush landscape and natural resources bathed in the light of the sun.',
-    colors: ['green', 'blue', 'yellow'],
+    colors: ['Green', 'Blue', 'Yellow'],
     rgb: ['#20603d', '#fad201', '#00a1de', '#e5be01'],
   },
   {
@@ -381,7 +381,7 @@ export const countries = [
     colorText: 'Diagonal cross, stars for independence, unity, hope, peace.',
     flagText:
       'The stars arranged centrally on Burundi’s flag reflect the nation’s motto “unity, work, and progress” and the country’s three major ethnic groups: Hutu, Tutsi, and Twa.',
-    colors: ['red', 'green', 'white'],
+    colors: ['Red', 'Green', 'White'],
     rgb: ['#18b637', '#cf0921', '#fff'],
   },
   {
@@ -394,7 +394,7 @@ export const countries = [
       'Green, white for Islam, peace; red star and crescent for independence, faith.',
     flagText:
       'Adopted in 1962, Algeria’s flag includes references- the star and crescent and the use of the color green-to the country’s dominant religion, Islam.',
-    colors: ['red', 'green', 'white'],
+    colors: ['Red', 'Green', 'White'],
     rgb: ['#fff', '#006233', '#d21034'],
   },
   {
@@ -407,7 +407,7 @@ export const countries = [
       'Black, yellow, red stripes for people, sun, brotherhood; crane symbolizes peaceful nature.',
     flagText:
       'The crested crane that appears on the Ugandan flag was selected for use on the British Blue Ensign and badges worn by the Ugandan military while Uganda was a protectorate of the British Empire. The crane’s raised leg represents Uganda’s forward progress.',
-    colors: ['red', 'yellow', 'white', 'black'],
+    colors: ['Red', 'Yellow', 'White', 'Black'],
     rgb: ['#ffe700', '#de3908', '#fffdff', '#de3108', '#9ca69c', '#fff'],
   },
   {
@@ -420,7 +420,7 @@ export const countries = [
       'Black, red, green for people, sacrifice, agriculture; white for peace; shield for defense.',
     flagText:
       'The design of Kenya’s flag is drawn from that of the Kenya African National Union, the party that fought for independence and later established one party rule in the country. The center of the flag features a Massai shield and two crossed spears, signifying the nation’s defense of its sovereignty and values.',
-    colors: ['red', 'green', 'white', 'black'],
+    colors: ['Red', 'Green', 'White', 'Black'],
     rgb: ['#fff', '#060', '#b00', '#000'],
   },
   {
@@ -433,7 +433,7 @@ export const countries = [
       'Black, red, green stripes, rising sun for people, sacrifice, resources, freedom.',
     flagText:
       'First hoisted at independence, Malawi’s flag was based upon that of the country’s main political party, the Malawi Congress Party. It features a red sun against a black backdrop, signifying the hope of African independence.',
-    colors: ['red', 'green', 'black'],
+    colors: ['Red', 'Green', 'Black'],
     rgb: ['#f41408', '#21873b', '#f31509'],
   },
   {
@@ -446,7 +446,7 @@ export const countries = [
       'Green field, red, black, orange bands, eagle for resources, struggle, wealth, resilience.',
     flagText:
       'The colors employed on the Zambian flag correspond to those of the United National Independence Party, a leading party in Northern Rhodesia’s independence movement and the governing political party between independence in 1964 and 1991.',
-    colors: ['orange', 'red', 'green', 'black'],
+    colors: ['Orange', 'Red', 'Green', 'Black'],
     rgb: ['#198a00', '#ef7d00', '#de2010', '#000'],
   },
   {
@@ -459,7 +459,7 @@ export const countries = [
       'Red, blue, green stripes, white borders for sun, river, agriculture, unity.',
     flagText:
       "Adopted upon Gambia’s independence in 1965, the flag's tricolor design alludes to regional features: red for the savannah, blue for the Gambia river, and green for the agricultural lands.",
-    colors: ['red', 'green', 'blue', 'white'],
+    colors: ['Red', 'Green', 'Blue', 'White'],
     rgb: ['#ff0000', '#fff', '#009', '#090'],
   },
   {
@@ -471,7 +471,7 @@ export const countries = [
     colorText: 'Blue field, black, white stripes for water, ethnic harmony.',
     flagText:
       'Created for Botswana’s independence in 1966, the flag was intended to contrast with the colors and design of neighboring South Africa, where apartheid remained law.',
-    colors: ['blue', 'white', 'black'],
+    colors: ['Blue', 'White', 'Black'],
     rgb: ['#00cbff', '#fff', '#000'],
   },
   {
@@ -484,7 +484,7 @@ export const countries = [
       'Blue, white, green stripes, Basotho hat for sky, peace, land, culture.',
     flagText:
       'Redesigned in 2006, Lesotho’s flag features a black mokorotlo, a Basotho straw hat, intended to convey peace between the country’s people and its neighbor South Africa. The mokorotlo replaced the animal skin shield and traditional weapons that previously appeared on the flag.',
-    colors: ['green', 'blue', 'white', 'black'],
+    colors: ['Green', 'Blue', 'White', 'Black'],
     rgb: ['#fff', '#009543', '#00209f', '#000'],
   },
   {
@@ -497,7 +497,7 @@ export const countries = [
       'Red, blue, yellow, green stripes for independence, ocean, light, agriculture.',
     flagText:
       'Designed by retired schoolteacher Gurudutt Moher, the flag’s four stripes represent the unification of the four political parties that were extant at the time of Mauritius’s independence in 1986.',
-    colors: ['red', 'green', 'blue', 'yellow'],
+    colors: ['Red', 'Green', 'Blue', 'Yellow'],
     rgb: ['#00a04d', '#151f6d', '#ee2737', '#ffcd00'],
   },
   {
@@ -510,7 +510,7 @@ export const countries = [
       'Blue, yellow, red stripes, shield, spears for peace, wealth, struggle, protection.',
     flagText:
       'After Eswatini gained independence from the British Empire, the nation adopted a flag based on one gifted by King Sobhuza II to Swazi Pioneer Corps, who had joined with Allied Forces, in 1941. The flag features a representation of a traditional shield made of black-and-white ox hide stretched over a wooden frame.',
-    colors: ['red', 'green', 'blue', 'yellow', 'white', 'black'],
+    colors: ['Red', 'Green', 'Blue', 'Yellow', 'White', 'Black'],
     rgb: ['#3e5eb9', '#ffd900', '#b10c0c', '#fff', '#333', '#b3b3b3'],
   },
   {
@@ -523,7 +523,7 @@ export const countries = [
       'Stripes, triangle, coat of arms for vegetation, peace, struggle, sea, unity.',
     flagText:
       'Following the deposition of Francisco Nguema in 1979, Equatorial Guinea’s coat of arms was restored to the flag. Featuring a silk cotton tree known as “God’s tree,” the coat of arms establishes the historic link between the region and Portugal.',
-    colors: ['red', 'green', 'blue', 'white'],
+    colors: ['Red', 'Green', 'Blue', 'White'],
     rgb: [
       '#fff',
       '#e32118',
@@ -545,7 +545,7 @@ export const countries = [
       'Yellow, green stripes, red band, black star for wealth, agriculture, struggle, unity.',
     flagText:
       'Drawing on the design of the Ghanaian flag, Guinea-Bissau’s flag features the colors of the Pan-African movement and a black star, a symbol of anti-colonial struggle.',
-    colors: ['red', 'green', 'yellow', 'black'],
+    colors: ['Red', 'Green', 'Yellow', 'Black'],
     rgb: ['#ce1126', '#fcd116', '#009e49'],
   },
   {
@@ -558,7 +558,7 @@ export const countries = [
       'Stripes, triangle, star, crescent for people, peace, Islam, struggle.',
     flagText:
       'The flag of the Sahrawi Arab Democratic Republic (claimed by Western Sahara) consists of three horizontal stripes of black, white, and green, with a red isosceles triangle on the left side. A red, five-pointed star and crescent appear in the center of the white stripe. Black represents the people, white signifies peace and optimism, green symbolizes Islam, and red represents the struggle for independence. The star and crescent are traditional Islamic symbols.',
-    colors: ['red', 'green', 'white', 'black'],
+    colors: ['Red', 'Green', 'White', 'Black'],
     rgb: ['#007a3d', '#fff', '#c4111b', '#000'],
   },
   {
@@ -571,7 +571,7 @@ export const countries = [
       'Stripes, triangle for agriculture, peace, Africa, wealth, independence; symbols for socialism, education, defense.',
     flagText:
       'The red triangle of Mozambique’s flag displays a yellow five point star, reflecting the country’s Marxist values upon independence in 1975. The star is overlaid with an open book, hoe, and Kalashnikov rifle  standing, respectively, for Mozambique’s commitment to education, agriculture, and defense of freedom.',
-    colors: ['red', 'green', 'yellow', 'black'],
+    colors: ['Red', 'Green', 'Yellow', 'Black'],
     rgb: ['#009a00', '#fff', '#ffca00', '#ff0000', '#000'],
   },
   {
@@ -584,7 +584,7 @@ export const countries = [
       'Blue field, red stripe, circle of stars for ocean, struggle, unity.',
     flagText:
       'Reflecting its status as an island nation, Cape Verde’s flag features a circle of ten stars as a chain of islands set against the blue backdrop of ocean and sky.',
-    colors: ['red', 'blue', 'yellow', 'white'],
+    colors: ['Red', 'Blue', 'Yellow', 'White'],
     rgb: ['#fff', '#081873', '#de3929', '#ffce08'],
   },
   {
@@ -597,7 +597,7 @@ export const countries = [
       'Stripes, green triangle, crescent, stars for islands, Islam, unity.',
     flagText:
       'The Islands’ flag references Islam, the majority religion, in the form of a crescent moon, stars, and green inset. The four stars and horizontal stripes reflect the distinct islands that comprise the Comoros.',
-    colors: ['red', 'green', 'blue', 'yellow', 'white'],
+    colors: ['Red', 'Green', 'Blue', 'Yellow', 'White'],
     rgb: ['#ff0', '#fff', '#be0027', '#3b5aa3', '#239e46'],
   },
   {
@@ -610,7 +610,7 @@ export const countries = [
       'Stripes, triangle, stars for vegetation, cocoa, struggle, islands.',
     flagText:
       'São Tomé and Príncipe’s flag is modeled upon the flag of the Movement for the Liberation of São Tomé and Príncipe, the nation’s leading pro-independence force. The flag features the colors and black star associated with the Pan-African Movement.',
-    colors: ['red', 'green', 'blue', 'yellow', 'black'],
+    colors: ['Red', 'Green', 'Blue', 'Yellow', 'Black'],
     rgb: ['#12ad2b', '#ffce00', '#d21034', '#000'],
   },
   {
@@ -623,7 +623,7 @@ export const countries = [
       'Red, black for independence struggle, Africa; yellow emblem for industry, agriculture.',
     flagText:
       "Angola's flag reflects that of the Popular Movement for the Liberation of Angola, with black symbolizing African unity and red representing the blood of those who fought for independence.",
-    colors: ['red', 'yellow', 'black'],
+    colors: ['Red', 'Yellow', 'Black'],
     rgb: ['#ff0000', '#ffec00', '#fe0'],
   },
   {
@@ -636,7 +636,7 @@ export const countries = [
       'Oblique bands for sky, sea, unity, social justice, environment.',
     flagText:
       "The colors on Seychelles’s flag represent the elements essential to the nation’s success. Blue represents the sea, yellow symbolizes the sun, red stands for the people's determination, white reflects harmony, and green represents fertile land.",
-    colors: ['red', 'green', 'blue', 'yellow', 'white'],
+    colors: ['Red', 'Green', 'Blue', 'Yellow', 'White'],
     rgb: ['#fff', '#d92223', '#fcd955', '#003d88', '#007a39'],
   },
   {
@@ -649,7 +649,7 @@ export const countries = [
       'Blue, green stripes, white triangle, red star for sky, earth, peace, unity.',
     flagText:
       'Drawing upon the flag of the Front de Libération de la Côte des Somalis, a  nationalist organization active in the 1960s-1970s, Djibouti’s flag represents the indigenous Afar and Somali peoples through its use of  blue and green.',
-    colors: ['red', 'green', 'blue', 'white'],
+    colors: ['Red', 'Green', 'Blue', 'White'],
     rgb: ['#0c0', '#69f', '#fffefe', '#ff0000'],
   },
   {
@@ -662,7 +662,7 @@ export const countries = [
       'Stripes, triangle, star, bird for agriculture, wealth, independence, history, peace, aspirations.',
     flagText:
       'Zimbabwe’s flag is emblazoned with the “Zimbabwe bird,” whose image is derived from a number of soapstone sculptures found amongst the remains of the medieval city of Great Zimbabwe.',
-    colors: ['red', 'green', 'yellow', 'white', 'black'],
+    colors: ['Red', 'Green', 'Yellow', 'White', 'Black'],
     rgb: ['#006400', '#ffd200', '#d40000', '#000', '#fff', '#fc0'],
   },
   {
@@ -675,7 +675,7 @@ export const countries = [
       'Diagonal red band, triangles, sun for sky, struggle, vegetation, unity, peace.',
     flagText:
       'Adopted in 1994, concurrent with the end of Apartheid and South Africa’s first general election in which all citizens could vote, the flag features six colors that could be variously associated with diverse South African peoples and organizations. The only explicit symbolism that appears on the flag is the green “Y” shape which is intended to reflect the integration of diverse elements of South African society.',
-    colors: ['red', 'green', 'blue', 'yellow', 'white'],
+    colors: ['Red', 'Green', 'Blue', 'Yellow', 'White'],
     rgb: ['#fff', '#3662a2', '#38a100', '#c70000', '#ffe700'],
   },
   {
@@ -688,7 +688,7 @@ export const countries = [
       'Y-shape and six colors signify diverse population and converging historical paths.',
     flagText:
       'The South African flag features six colors arranged in a horizontal Y-shape. The colors include black, green, and yellow on the upper Y, and red, white, and blue on the lower Y. The black, green, and yellow represent the African National Congress (ANC), which fought for the end of apartheid. The red, white, and blue are derived from the flags of the United Kingdom and the Dutch East India Company, which colonized South Africa. The colors and the Y-shape signify the unity of the diverse South African population and the convergence of their different historical paths.',
-    colors: ['red', 'green', 'blue', 'yellow', 'white', 'black'],
+    colors: ['Red', 'Green', 'Blue', 'Yellow', 'White', 'Black'],
     rgb: ['#000c8a', '#e1392d', '#ffb915', '#007847', '#ffffff', '#000000'],
   },
   {
@@ -701,7 +701,7 @@ export const countries = [
       'Red, green, blue triangles, yellow sun for independence, fertility, sea, unity.',
     flagText:
       'The green, yellow, and red of Ethiopia’s flag were adopted by a number of Pan-Africanist organizations and newly independent African nations in homage to Ethiopia’s resistance to colonial occupation. The yellow five point star that appears on the flag is said to represent the equality of all Ethiopians.',
-    colors: ['red', 'green', 'blue', 'yellow'],
+    colors: ['Red', 'Green', 'Blue', 'Yellow'],
     rgb: ['#be0027', '#b4d7f4', '#239e46', '#f3e295'],
   },
   {
@@ -714,7 +714,7 @@ export const countries = [
       'Stripes, triangle, star for people, freedom, agriculture, unity, Nile River, future.',
     flagText:
       'Upon the conclusion of the Second Sudanese Civil War in 2005 (6 years prior to independence), South Sudan adopted a flag featuring black, white, green, and red–colors associated with Pan-Arabism. The blue triangle upon which a yellow star is placed represents the waters of the Nile River and national unity, respectively.',
-    colors: ['red', 'green', 'blue', 'yellow', 'white', 'black'],
+    colors: ['Red', 'Green', 'Blue', 'Yellow', 'White', 'Black'],
     rgb: ['#078930', '#fff', '#da121a', '#0f47af', '#fcdd09'],
   },
 ];
