@@ -6,6 +6,7 @@ import { countries } from '@/data/countries';
 import { getDictionary } from '@/dictionaries/dictionaries';
 
 import { Button } from '@/components/ui/button';
+import { AfricaMap } from '../africa-map';
 import { BkmLogo } from '../bkm-logo';
 import { Icons } from '../icons';
 
@@ -75,14 +76,24 @@ export function Flag({
         </div>
         <div className="pt-4 lg:pt-0">
           {country?.code && (
-            <div className="w-full overflow-hidden">
-              <Image
-                src={`/img/flags/${country.code}.svg`}
-                className="aspect-4/3 object-cover "
-                alt=""
-                width={500}
-                height={500}
-              />
+            <div className="flex w-full gap-x-4">
+              <div className="w-full overflow-hidden">
+                <Image
+                  src={`/img/flags/${country.code}.svg`}
+                  className="aspect-4/3 object-cover "
+                  alt=""
+                  width={500}
+                  height={500}
+                />
+              </div>
+              <div className="w-full overflow-hidden">
+                <style jsx global>{`
+                  #country-${country.code} {
+                    fill: white;
+                  }
+                `}</style>
+                <AfricaMap className="w-56 pt-10" />
+              </div>
             </div>
           )}
           <h1 className="mt-4 mb-2 text-6xl font-bold lg:text-8xl">

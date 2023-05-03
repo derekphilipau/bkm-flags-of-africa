@@ -1,4 +1,16 @@
-export const countries = [
+export interface Country {
+  code: string;
+  name: string;
+  year: number;
+  date: string;
+  text: string;
+  colorText: string;
+  flagText: string;
+  colors: string[];
+  rgb: string[];
+}
+
+export const countries: Country[] = [
   {
     code: 'lr',
     name: 'Liberia',
