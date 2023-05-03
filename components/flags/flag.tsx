@@ -76,8 +76,8 @@ export function Flag({
         </div>
         <div className="pt-4 lg:pt-0">
           {country?.code && (
-            <div className="flex w-full gap-x-4">
-              <div className="w-full overflow-hidden">
+            <div className="flex w-full flex-wrap justify-center lg:justify-start">
+              <div className="overflow-hidden">
                 <Image
                   src={`/img/flags/${country.code}.svg`}
                   className="aspect-4/3 object-cover "
@@ -86,22 +86,26 @@ export function Flag({
                   height={500}
                 />
               </div>
-              <div className="w-full overflow-hidden">
-                <style jsx global>{`
-                  #country-${country.code} {
-                    fill: white;
-                  }
-                `}</style>
-                <AfricaMap className="w-56 pt-10" />
-              </div>
             </div>
           )}
-          <h1 className="mt-4 mb-2 text-6xl font-bold lg:text-8xl">
-            {country?.name}
-          </h1>
-          <p className="mt-8 mb-12 text-3xl italic text-neutral-300 lg:text-5xl">
-            {country?.colorText}
-          </p>
+          <div className="flex flex-wrap items-start gap-x-4 lg:flex-nowrap">
+            <div className="w-36 flex-none overflow-hidden lg:w-48">
+              <style jsx global>{`
+                #country-${country.code} {
+                  fill: white;
+                }
+              `}</style>
+              <AfricaMap className="w-full pt-10" />
+            </div>
+            <div>
+              <h1 className="mt-4 mb-2 text-6xl font-bold lg:text-8xl">
+                {country?.name}
+              </h1>
+              <p className="mt-8 mb-12 text-3xl italic text-neutral-300 lg:text-5xl">
+                {country?.colorText}
+              </p>
+            </div>
+          </div>
           <h2 className="mt-4 mb-2 text-4xl font-bold lg:text-6xl">
             About the Flag
           </h2>
