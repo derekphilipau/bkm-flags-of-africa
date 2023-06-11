@@ -23,7 +23,6 @@ export function FlagNav({
   );
 
   const country = countries[countryIndex];
-  console.log('xxx lang: ' + lang, country, countryCode);
 
   const homeLink = isFromTimeline ? `/${lang}/timeline` : `/${lang}/`;
   const previousIndex =

@@ -1,16 +1,10 @@
-'use client';
-
 import Image from 'next/image';
-import { useRouter } from 'next/navigation';
 import { countries as countriesEn } from '@/data/countries-en';
 import { countries as countriesEs } from '@/data/countries-es';
-import { getDictionary } from '@/get-dictionary';
 import type { Locale } from '@/i18n-config';
 
-import { Button } from '@/components/ui/button';
 import { AfricaMap } from '../africa-map';
 import { BkmLogo } from '../bkm-logo';
-import { Icons } from '../icons';
 import { FlagNav } from './flag-nav';
 
 export function Flag({
@@ -60,12 +54,7 @@ export function Flag({
               </p>
             </div>
             <div className="w-48 flex-none overflow-hidden lg:w-48">
-              <style jsx global>{`
-                #country-${country?.code} {
-                  fill: white;
-                }
-              `}</style>
-              <AfricaMap className="w-full pt-4" />
+              <AfricaMap countryCode={country?.code} className="w-full pt-4" />
             </div>
           </div>
           <div className="max-w-screen-lg">
