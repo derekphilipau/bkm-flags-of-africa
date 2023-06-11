@@ -112,8 +112,7 @@ flagText:
     code: 'cm',
     name: 'Camerún',
     year: 1960,
-    date: 'January 1, 1960, from France / October 1, 1961, from the United Kingdom',
-    text: '1 de enero de 1960, de Francia / 1 de octubre de 1961, del Reino Unido',
+    date: '1 de enero de 1960, de Francia / 1 de octubre de 1961, del Reino Unido',
     text: 'Colonizado por Alemania a finales del siglo XIX, Camerún fue transferido a la administración francesa y británica después de la Primera Guerra Mundial. Aunque Camerún francés y británico tuvieron trayectorias diferentes, ambos territorios fueron explotados por sus recursos naturales y siguieron dependiendo de las naciones europeas para los bienes de consumo. La Segunda Guerra Mundial provocó un aumento del nacionalismo en Camerún, que culminó en la creación de la Unión del Pueblo de Camerún (UPC), fundada por Ruben Um Nyobe en 1948 para promover la unificación. En 1955, Francia prohibió la UPC por su agitación nacionalista, desencadenando una guerra civil de siete años. Camerún francés obtuvo la independencia en 1960, y un año después, la parte sur de Camerún británico se unió a él (y el norte de Camerún británico se unió a Nigeria).',
     colorText:
       'Franjas verdes, rojas y amarillas para los bosques, la unidad, las sabanas; estrella para la unidad nacional.',
