@@ -28,7 +28,7 @@ export function SymbolsFooter() {
           <Icons.alignJustify className="mr-2 h-6 w-6 lg:mr-4 lg:h-14 lg:w-14" />
         </div>
         <div>
-          <Icons.alignJustify className="rotate-90 mr-2 h-6 w-6 lg:mr-4 lg:h-14 lg:w-14" />
+          <Icons.alignJustify className="mr-2 h-6 w-6 rotate-90 lg:mr-4 lg:h-14 lg:w-14" />
         </div>
         <div>
           <Icons.circle className="mr-2 h-6 w-6 lg:mr-4 lg:h-14 lg:w-14" />

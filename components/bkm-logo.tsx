@@ -4,7 +4,7 @@ export function BkmLogo({ className }: { className?: string }) {
   return (
     <Link href="https://brooklynmuseum.org">
       <svg
-        className={`${className} p-4 lg:p-0 w-60 mt-24 fill-neutral-600 hover:fill-neutral-400 lg:w-96`}
+        className={`${className} mt-24 w-60 fill-neutral-600 p-4 hover:fill-neutral-400 lg:w-96 lg:p-0`}
         id="Layer_1"
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"

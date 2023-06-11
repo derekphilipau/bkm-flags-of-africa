@@ -37,7 +37,7 @@ export default async function Page({ params, searchParams }) {
           <h2 className={getColorClass(color)}>{getColorName(color)}</h2>
         )}
         <div className="px-4">
-          <h1 className="flex pl-3 lg:pl-0 text-6xl lg:text-8xl lg:mt-6 font-bold mb-4">
+          <h1 className="mb-4 flex pl-3 text-6xl font-bold lg:mt-6 lg:pl-0 lg:text-8xl">
             <Icons.star className="mr-2 h-6 w-6 lg:mr-4 lg:h-24 lg:w-24" /> Star
           </h1>
           <p className="mb-8 text-2xl text-neutral-300 lg:text-4xl">

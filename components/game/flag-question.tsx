@@ -46,7 +46,7 @@ export function FlagQuestion({}: {}) {
             <Icons.chevronRight className="mx-4 h-12 w-12 text-africamaps" />
           </Button>
         </div>
-        <div className="pt-4 lg:pt-0 flex flex-wrap w-full">
+        <div className="flex w-full flex-wrap pt-4 lg:pt-0">
           {randomCountries.map((country) => (
             <div className="w-full overflow-hidden">
               <Checkbox

@@ -26,7 +26,7 @@ export function TimelineFooter() {
           {years.map((year) => (
             <div
               onClick={() => clickYear(year)}
-              className="z-10 flex cursor-pointer items-center justify-center rounded-full border-white bg-blue-600 text-[8px] font-bold text-opacity-0 transition duration-300 hover:scale-300 text-blue-600 hover:text-white h-6 w-6 border-2"
+              className="z-10 flex h-6 w-6 cursor-pointer items-center justify-center rounded-full border-2 border-white bg-blue-600 text-[8px] font-bold text-blue-600 text-opacity-0 transition duration-300 hover:scale-300 hover:text-white"
             >
               {year}
             </div>
