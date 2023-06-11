@@ -1,7 +1,8 @@
 export const colors = [
   {
-    name: 'White',
-    text: 'Often signifies peace, purity, and unity. It can also represent harmony and the peaceful coexistence of different ethnic groups within the country.',
+    id: 'white',
+    name: 'Blanco',
+    text: 'A menudo simboliza la paz, la pureza y la unidad. También puede representar la armonía y la convivencia pacífica de diferentes grupos étnicos dentro del país.',
     cssColor: 'text-white',
     values: [
       '#fff',
@@ -15,8 +16,9 @@ export const colors = [
     ],
   },
   {
-    name: 'Red',
-    text: 'Often symbolizes the blood shed during the struggle for independence or freedom, as well as bravery and valor. It can also represent the strength, unity, and determination of the people.',
+    id: 'red',
+    name: 'Rojo',
+    text: 'A menudo simboliza la sangre derramada durante la lucha por la independencia o la libertad, así como la valentía y el valor. También puede representar la fuerza, la unidad y la determinación del pueblo.',
     cssColor: 'text-red-600',
     values: [
       '#b00',
@@ -55,8 +57,9 @@ export const colors = [
     ],
   },
   {
-    name: 'Orange',
-    text: 'Often represents the Sahara Desert, which covers much of the northern part of the continent. It can also symbolize the courage and persistence of the people.',
+    id: 'orange',
+    name: 'Naranja',
+    text: 'A menudo representa el Desierto del Sahara, que cubre gran parte del norte del continente. También puede simbolizar el valor y la persistencia del pueblo.',
     cssColor: 'text-orange-600',
     values: [
       '#e05206',
@@ -80,8 +83,9 @@ export const colors = [
     ],
   },
   {
-    name: 'Yellow',
-    text: 'Frequently represents the sun, warmth, and light. It can also symbolize wealth, prosperity, and mineral resources found in the country.',
+    id: 'yellow',
+    name: 'Amarillo',
+    text: 'Frecuentemente representa el sol, la calidez y la luz. También puede simbolizar la riqueza, la prosperidad y los recursos minerales que se encuentran en el país.',
     cssColor: 'text-yellow-400',
     values: [
       '#c09300',
@@ -99,8 +103,9 @@ export const colors = [
     ],
   },
   {
-    name: 'Green',
-    text: 'Typically represents agriculture, natural resources, and the lush vegetation found across the continent. It can also signify growth, hope, and progress for the nation.',
+    id: 'green',
+    name: 'Verde',
+    text: 'Normalmente representa la agricultura, los recursos naturales y la exuberante vegetación que se encuentra en todo el continente. También puede significar crecimiento, esperanza y progreso para la nación.',
     cssColor: 'text-green-600',
     values: [
       '#006233',
@@ -139,8 +144,9 @@ export const colors = [
     ],
   },
   {
-    name: 'Blue',
-    text: 'Commonly symbolizes water, the sky, or the sea, which are important features for many African countries. It can also signify peace, stability, and tranquility.',
+    id: 'blue',
+    name: 'Azul',
+    text: 'Comúnmente simboliza el agua, el cielo o el mar, que son características importantes para muchos países africanos. También puede significar paz, estabilidad y tranquilidad.',
     cssColor: 'text-blue-600',
     values: [
       '#000067',
@@ -169,8 +175,9 @@ export const colors = [
     ],
   },
   {
-    name: 'Black',
-    text: 'Typically symbolizes the people and their identity, as well as the African continent itself. It can also represent strength, resilience, and determination.',
+    id: 'black',
+    name: 'Negro',
+    text: 'Típicamente simboliza a la gente y su identidad, así como al continente africano en sí. También puede representar fuerza, resistencia y determinación.',
     cssColor: 'text-white',
     values: ['#333', '#000', '#111', '#000000', '#222'],
   },

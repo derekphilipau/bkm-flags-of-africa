@@ -2,8 +2,10 @@
 
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
-import { countries, type Country } from '@/data/countries';
-import { getDictionary } from '@/dictionaries/dictionaries';
+import type { Country } from '@/types';
+import { countries } from '@/data/countries-en';
+import { getDictionary } from '@/get-dictionary';
+import type { Locale } from '@/i18n-config';
 
 import { Button } from '@/components/ui/button';
 import { Checkbox } from '@/components/ui/checkbox';

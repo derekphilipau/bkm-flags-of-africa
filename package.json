@@ -10,6 +10,7 @@
     "format": "prettier --check --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@formatjs/intl-localematcher": "^0.3.0",
     "@radix-ui/react-accessible-icon": "^1.0.3",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-alert-dialog": "^1.0.4",
@@ -43,7 +44,8 @@
     "clsx": "^1.2.1",
     "flag-icons": "^6.7.0",
     "framer-motion": "^10.12.4",
-    "lucide-react": "0.105.0-alpha.4",
+    "lucide-react": "^0.242.0",
+    "negotiator": "^0.6.3",
     "next": "^13.4.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

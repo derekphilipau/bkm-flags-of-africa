@@ -1,12 +1,10 @@
 import Image from 'next/image';
-import Link from 'next/link';
-import { getDictionary } from '@/dictionaries/dictionaries';
+import { getDictionary } from '@/get-dictionary';
 
 import { PageWrapper } from '@/components/page-wrapper';
-import { buttonVariants } from '@/components/ui/button';
 
-export default function Page() {
-  const dict = getDictionary();
+export default async function Page({ params: { lang }, searchParams }) {
+  const dict = await getDictionary(lang);
 
   return (
     <PageWrapper className="overflow-hidden">

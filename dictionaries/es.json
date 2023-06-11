@@ -1,0 +1,20 @@
+{
+  "site.title": "Banderas de África",
+  "nav.home": "Inicio",
+  "nav.flags": "Banderas",
+  "nav.about": "Acerca de",
+  "nav.info": "Información",
+  "nav.map": "Mapa",
+  "nav.symbols": "Símbolos",
+  "nav.timeline": "Cronología",
+  "nav.previous": "Previous Flag",
+  "nav.next": "Next Flag",
+  "nav.up": "Go Back",
+  "home.text1": "Aquí se presentan las banderas de los países que componen el continente africano. El color de cada bandera es simbólico de la realidad vivida en el respectivo país. Un número de las banderas están compuestas por dos conjuntos de configuraciones de color, verde, amarillo y rojo o rojo, negro y verde, ambos referidos como 'colores panafricanos'. El primer conjunto de colores se inspiró en la bandera de Etiopía, el único país que vivió un breve período de ocupación europea que terminó en 1942 con la derrota del Reino de Italia (1861-1945), pero que permaneció independiente durante la era colonial.",
+  "home.text2": "El rojo, negro y verde fue introducido por primera vez por el activista político y nacionalista negro Marcus Garvey en 1920 y sirvió como símbolo del panafricanismo. Estos colores y su simbolismo también encontrarían su camino en las banderas nacionales de numerosos países africanos.",
+  "timeline.title": "Cronología de la Independencia",
+  "timeline.text": "La cronología presentada aquí ofrece una visión de la trayectoria de cada una de las cincuenta y cuatro naciones de África hacia la independencia, así como las secuelas de la descolonización en las décadas siguientes.",
+  "flag.about": "Acerca de la Bandera",
+  "flag.symbolism": "Simbolismo",
+  "flag.independence": "Independencia"
+}

@@ -31,6 +31,12 @@ import {
   SunMedium,
   Twitter,
   Unlink,
+  Sword,
+  Hammer,
+  Cat,
+  Book,
+  Castle,
+  MountainSnow,
   type Icon as LucideIcon,
 } from 'lucide-react';
 
@@ -68,4 +74,10 @@ export const Icons = {
   circle: Circle,
   slice: Slice,
   check: Check,
+  sword: Sword,
+  hammer: Hammer,
+  cat: Cat,
+  book: Book,
+  castle: Castle,
+  mountainSnow: MountainSnow,
 };

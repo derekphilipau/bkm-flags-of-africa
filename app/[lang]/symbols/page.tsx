@@ -2,8 +2,10 @@ import { BkmLogo } from '@/components/bkm-logo';
 import { Flags } from '@/components/flags/flags';
 import { Icons } from '@/components/icons';
 import { PageWrapper } from '@/components/page-wrapper';
+import { getDictionary } from '@/get-dictionary';
 
-export default async function Page({ params, searchParams }) {
+export default async function Page({ params: { lang }, searchParams }) {
+  const dict = await getDictionary(lang);
   const color = searchParams?.color;
 
   function getColorClass(color) {
@@ -54,7 +56,7 @@ export default async function Page({ params, searchParams }) {
             threads that run through the symbolism across the continent.
           </p>
         </div>
-        <Flags color={color} info={true} />
+        <Flags color={color} info={true} lang={lang} />
         <BkmLogo />
       </div>
     </PageWrapper>
