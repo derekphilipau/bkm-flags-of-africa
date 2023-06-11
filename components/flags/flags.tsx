@@ -48,7 +48,7 @@ export function Flags({ color, info, lang }: { color?: string; info?: boolean; l
               {info && (
                 <div className="mt-2 text-base font-bold text-white">
                   <h3 className="text-2xl">{country?.name}</h3>
-                  <p className="text-lg text-neutral-300">
+                  <p className="mt-2 font-serif text-lg font-normal text-neutral-300">
                     {country?.colorText}
                   </p>
                 </div>

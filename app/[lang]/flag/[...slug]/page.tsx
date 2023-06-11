@@ -1,9 +1,10 @@
 import { Flag } from '@/components/flags/flag';
 import { PageWrapper } from '@/components/page-wrapper';
 import { getDictionary } from '@/get-dictionary';
+import { i18n } from '@/i18n-config'
 
 export default async function Page({ params, searchParams }) {
-  const lang = params?.lang || 'en';
+  const lang = params?.lang || i18n.defaultLocale;
   const dict = await getDictionary(lang)
   const countryCode = params.slug[0];
   const isFromTimeline = searchParams?.timeline === 'true';

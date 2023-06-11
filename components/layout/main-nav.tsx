@@ -10,7 +10,7 @@ export function MainNav({ dict, lang }) {
       <div>
         <Link
           href={`/${lang}`}
-          className={`${lang === 'en' ? 'text-7xl' : 'text-6xl'} font-bold uppercase hover:text-white`}
+          className={`${lang === 'en' ? 'text-7xl' : 'text-5xl'} font-bold uppercase hover:text-white`}
         >
           {dict['site.title']}
         </Link>

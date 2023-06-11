@@ -23,10 +23,10 @@ export default async function Page({ params: { lang }, searchParams }) {
   return (
     <div className="mb-24 lg:py-6  lg:pr-4">
       <div className="px-4 lg:px-0">
-        <h2 className="text-6xl font-semibold lg:text-8xl">
+        <h2 className="text-4xl font-semibold lg:text-6xl">
           {dict['timeline.title']}
         </h2>
-        <p className="mt-4 mb-8 text-4xl text-neutral-300">
+        <p className="mt-6 mb-8 font-serif text-2xl font-normal text-neutral-300">
           {dict['timeline.text']}
         </p>
       </div>
@@ -64,7 +64,7 @@ export default async function Page({ params: { lang }, searchParams }) {
                       <h5 className="my-4 text-2xl italic text-neutral-300 lg:text-4xl">
                         {country.date}
                       </h5>
-                      <p className="my-4 text-xl text-neutral-300 lg:text-2xl">
+                      <p className="my-4 font-serif text-xl font-normal text-neutral-300 lg:text-2xl">
                         {country.text}
                       </p>
                     </div>

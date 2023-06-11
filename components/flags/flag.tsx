@@ -55,7 +55,7 @@ export function Flag({
               <h1 className="mb-2 text-6xl font-bold lg:text-8xl">
                 {country?.name}
               </h1>
-              <p className="my-6 text-2xl italic lg:text-3xl">
+              <p className="my-6 font-serif text-2xl font-normal italic lg:text-2xl">
                 {country?.colorText}
               </p>
             </div>
@@ -70,18 +70,18 @@ export function Flag({
           </div>
           <div className="max-w-screen-lg">
             <h2 className="mt-4 mb-6 text-4xl font-bold lg:text-6xl">
-              Independence
+              {dict['flag.independence']}
             </h2>
-            <h5 className="my-6 text-2xl italic lg:text-3xl">
+            <h5 className="my-6 font-serif text-2xl font-normal italic lg:text-2xl">
               {country?.date}
             </h5>
-            <p className="text-2xl text-neutral-300 lg:text-3xl">
+            <p className="font-serif text-2xl font-normal text-neutral-300 lg:text-2xl">
               {country?.text}
             </p>
             <h2 className="mt-8 mb-6 text-4xl font-bold lg:text-6xl">
-              About the Flag
+              {dict['flag.about']}
             </h2>
-            <p className="text-2xl text-neutral-300 lg:text-3xl">
+            <p className="font-serif text-2xl font-normal text-neutral-300 lg:text-2xl">
               {country?.flagText}
             </p>
           </div>
