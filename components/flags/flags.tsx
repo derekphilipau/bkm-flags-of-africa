@@ -29,7 +29,7 @@ export function Flags({ color, info, lang }: { color?: string; info?: boolean; l
               }`}
               key={index}
             >
-              <Link href={`/flag/${country.code}/${country.name}`}>
+              <Link href={`${lang}/flag/${country.code}/${country.name}`}>
               <div className="relative">
                 <Image
                   src={`/img/flags/${country.code}.svg`}

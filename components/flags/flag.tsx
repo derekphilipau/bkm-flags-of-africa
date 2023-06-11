@@ -34,10 +34,8 @@ export function Flag({
 
   return (
     <section className="">
-      <div className="relative mt-0">
-        <div className="lg:justify-normal flex w-full items-center justify-between gap-x-2 lg:absolute lg:right-0 lg:top-0 lg:w-fit">
-          <FlagNav countryCode={countryCode} isFromTimeline={isFromTimeline} lang={lang} dict={dict} />
-        </div>
+      <div className="relative mt-0">        
+        <FlagNav countryCode={countryCode} isFromTimeline={isFromTimeline} lang={lang} dict={dict} />
         <div className="pt-4 lg:pt-0">
           {country?.code && (
             <div className="flex w-full flex-wrap justify-center lg:justify-start">

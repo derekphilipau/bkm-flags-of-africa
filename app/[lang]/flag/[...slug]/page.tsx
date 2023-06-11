@@ -10,7 +10,7 @@ export default async function Page({ params, searchParams }) {
 
   return (
     <PageWrapper className="overflow-hidden">
-      <div className="mb-4 p-6">
+      <div className="mb-4 px-6 lg:py-6">
         <Flag countryCode={countryCode} isFromTimeline={isFromTimeline} lang={lang} dict={dict} />
       </div>
     </PageWrapper>
