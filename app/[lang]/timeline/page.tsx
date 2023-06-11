@@ -37,7 +37,7 @@ export default async function Page({ params: { lang }, searchParams }) {
             <div className="mt-6 lg:mt-0 lg:mb-4" key={index}>
               <div className="sticky top-6 mb-6 grid w-full grid-cols-1">
                 <div className="flex w-full justify-center">
-                  <div className="flex h-24 w-24 items-center justify-center rounded-full bg-africamaps text-4xl font-bold text-black lg:translate-y-0">
+                  <div className="flex h-24 w-24 items-center justify-center rounded-full bg-africamaps  text-4xl font-bold text-black shadow-lg lg:translate-y-0">
                     <a href={`#timeline-${year}`}>{year}</a>
                   </div>
                 </div>
