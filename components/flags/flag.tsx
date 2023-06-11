@@ -88,39 +88,41 @@ export function Flag({
               </div>
             </div>
           )}
-          <div className="flex flex-wrap items-start gap-x-4 lg:flex-nowrap">
-            <div className="w-36 flex-none overflow-hidden lg:w-48">
+          <div className="my-8 flex flex-wrap items-start gap-x-4 w-full lg:flex-nowrap">
+            <div>
+              <h1 className="mb-2 text-6xl font-bold lg:text-8xl">
+                {country?.name}
+              </h1>
+              <p className="my-6 text-2xl italic lg:text-3xl">
+                {country?.colorText}
+              </p>
+            </div>
+            <div className="w-48 flex-none overflow-hidden lg:w-48">
               <style jsx global>{`
                 #country-${country.code} {
                   fill: white;
                 }
               `}</style>
-              <AfricaMap className="w-full pt-10" />
-            </div>
-            <div>
-              <h1 className="mt-4 mb-2 text-6xl font-bold lg:text-8xl">
-                {country?.name}
-              </h1>
-              <p className="mt-8 mb-12 text-3xl italic text-neutral-300 lg:text-5xl">
-                {country?.colorText}
-              </p>
+              <AfricaMap className="w-full pt-4" />
             </div>
           </div>
-          <h2 className="mt-4 mb-2 text-4xl font-bold lg:text-6xl">
-            About the Flag
-          </h2>
-          <p className="text-2xl text-neutral-300 lg:text-3xl">
-            {country?.flagText}
-          </p>
-          <h2 className="mt-8 mb-6 text-4xl font-bold lg:text-6xl">
-            Independence
-          </h2>
-          <h5 className="my-6 text-3xl italic text-neutral-300 lg:text-5xl">
-            {country.date}
-          </h5>
-          <p className="text-2xl text-neutral-300 lg:text-2xl">
-            {country.text}
-          </p>
+          <div className="max-w-screen-lg">
+            <h2 className="mt-4 mb-6 text-4xl font-bold lg:text-6xl">
+              Independence
+            </h2>
+            <h5 className="my-6 text-2xl italic lg:text-3xl">
+              {country.date}
+            </h5>
+            <p className="text-2xl text-neutral-300 lg:text-3xl">
+              {country.text}
+            </p>
+            <h2 className="mt-8 mb-6 text-4xl font-bold lg:text-6xl">
+              About the Flag
+            </h2>
+            <p className="text-2xl text-neutral-300 lg:text-3xl">
+              {country?.flagText}
+            </p>
+          </div>
         </div>
       </div>
       <BkmLogo />
