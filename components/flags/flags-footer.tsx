@@ -9,36 +9,40 @@ import { Icons } from '../icons';
 
 const flagSymbols = [
   {
-    name: 'Star',
+    id: 'star',
     icon: <Icons.star className="h-6 w-6 lg:h-14 lg:w-14" />,
   },
   {
-    name: 'Stripes',
-    icon: <Icons.alignJustify className="h-6 w-6 lg:h-14 lg:w-14" />,
+    id: 'weapons',
+    icon: <Icons.sword className="h-6 w-6 lg:h-14 lg:w-14" />,
   },
   {
-    name: 'Vertical',
-    icon: <Icons.alignJustify className="h-6 w-6 rotate-90 lg:h-14 lg:w-14" />,
+    id: 'tools',
+    icon: <Icons.hammer className="h-6 w-6 lg:h-14 lg:w-14" />,
   },
   {
-    name: 'Circle',
+    id: 'animals',
+    icon: <Icons.cat className="h-6 w-6 lg:h-14 lg:w-14" />,
+  },
+  {
+    id: 'books',
+    icon: <Icons.book className="h-6 w-6 lg:h-14 lg:w-14" />,
+  },
+  {
+    id: 'structures',
+    icon: <Icons.castle className="h-6 w-6 lg:h-14 lg:w-14" />,
+  },
+  {
+    id: 'nature',
+    icon: <Icons.mountainSnow className="h-6 w-6 lg:h-14 lg:w-14" />,
+  },
+  {
+    id: 'shapes',
     icon: <Icons.circle className="h-6 w-6 lg:h-14 lg:w-14" />,
-  },
-  {
-    name: 'Crescent',
-    icon: <Icons.moon className="h-6 w-6 lg:h-14 lg:w-14" />,
-  },
-  {
-    name: 'Sword',
-    icon: <Icons.slice className="h-6 w-6 lg:h-14 lg:w-14" />,
-  },
-  {
-    name: 'Bird',
-    icon: <BirdIcon className="h-6 w-6 lg:h-14 lg:w-14" />,
   },
 ];
 
-export function FlagsColorFooter() {
+export function FlagsFooter({ lang }) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const currentColor = searchParams.get('color');
@@ -46,16 +50,16 @@ export function FlagsColorFooter() {
 
   function clickColor(colorName?: string) {
     if (!colorName || colorName === currentColor) {
-      return router.push('/');
+      return router.push(`/${lang}`);
     }
-    router.push(`/?color=${colorName}`);
+    router.push(`/${lang}/?color=${colorName}`);
   }
 
   function clickSymbol(symbolName?: string) {
     if (!symbolName || symbolName === currentSymbol) {
-      return router.push('/?symbol=all');
+      return router.push(`/${lang}/?symbol=all`);
     }
-    router.push(`/?symbol=${symbolName}`);
+    router.push(`/${lang}/?symbol=${symbolName}`);
   }
 
   return (
@@ -70,13 +74,13 @@ export function FlagsColorFooter() {
           </div>
           {flagSymbols.map((symbol) => (
             <div
-              key={symbol.name}
+              key={symbol.id}
               className={`flex h-full w-full cursor-pointer items-center justify-center ${
-                currentSymbol === symbol.name
+                currentSymbol === symbol.id
                   ? 'text-white'
                   : 'text-africamaps hover:text-white'
               }`}
-              onClick={() => clickSymbol(symbol.name)}
+              onClick={() => clickSymbol(symbol.id)}
             >
               {symbol.icon}
             </div>
@@ -93,9 +97,9 @@ export function FlagsColorFooter() {
           </div>
           {colors.map((colorGroup) => (
             <div
-              key={colorGroup.name}
+              key={colorGroup.id}
               className="flex h-16 w-full lg:h-24"
-              onClick={() => clickColor(colorGroup.name)}
+              onClick={() => clickColor(colorGroup.id)}
             >
               {colorGroup.values.map((color, index) => (
                 <div
@@ -104,7 +108,7 @@ export function FlagsColorFooter() {
                   style={{ backgroundColor: color }}
                 />
               ))}
-              {currentColor === colorGroup.name && (
+              {currentColor === colorGroup.id && (
                 <div className="relative z-10">
                   <div className="absolute top-2 right-2">
                     {currentColor === 'white' ||

@@ -21,7 +21,7 @@ export default async function Page({ params: { lang }, searchParams }) {
   });
 
   return (
-    <div className="mb-24 lg:py-6  lg:pr-4">
+    <div className="mb-24 lg:py-6 lg:pr-4">
       <div className="px-4 lg:px-0">
         <h2 className="text-4xl font-semibold lg:text-6xl">
           {dict['timeline.title']}

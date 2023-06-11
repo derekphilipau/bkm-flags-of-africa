@@ -9,7 +9,7 @@ export const countries: Country[] = [
     text: 'Liberia fue establecida como colonia por la Sociedad Americana de Colonización, una organización fundada para alentar y apoyar la migración de estadounidenses negros emancipados y libres al continente africano. Los primeros colonos, conocidos como americano-liberianos o gente Congau, impusieron muchos de los sistemas promovidos en los Estados Unidos, incluyendo el establecimiento de plantaciones. En 1847, los colonos emitieron una Declaración de Independencia y aprobaron una constitución, estableciendo la autogobernación americano-liberiana.',
     colorText: 'Rojo, franjas blancas, cuadro azul, estrella por independencia, África, libertad.',
     flagText: 'Diseñada y cosida a mano por un comité de siete prominentes mujeres liberianas, la bandera se asemeja mucho a la de los Estados Unidos, representando la fundación de Liberia por personas libres y anteriormente esclavizadas de los Estados Unidos y el Caribe.',
-    colors: ['Red', 'Blue', 'White'],
+    colors: ['red', 'blue', 'white'],
     rgb: ['#fff', '#006', '#c00'],
   },
   {
@@ -20,7 +20,7 @@ export const countries: Country[] = [
     text: 'Aunque el Reino Unido emitió por primera vez una declaración unilateral de soberanía egipcia el 28 de febrero de 1922, su ocupación del país continuaría sin cesar durante varias décadas. No fue hasta el 18 de junio de 1953, después de una revolución liderada por el oficial militar Gamal Abdel Nasser, que el Reino de Egipto fue formalmente abolido y declarado una república autónoma. La independencia egipcia inició una ola de sentimiento panarabista y esfuerzos de descolonización que se extendieron por todo el Medio Oriente y el Norte de África.',
     colorText: 'Rojo, blanco, negro por lucha por la libertad, revolución pacífica, fin de la opresión.',
     flagText: 'Desde la Revolución de 1952, el Águila de Saladino, que aparece en la bandera egipcia adoptada en 1984, ha servido como símbolo de la soberanía egipcia y el nacionalismo panárabe.',
-    colors: ['Red', 'White', 'Black'],
+    colors: ['red', 'white', 'black'],
     rgb: ['#fff', '#c09300', '#000'],
   },
   {
@@ -31,7 +31,7 @@ export const countries: Country[] = [
     text: 'En medio de los combates de la Segunda Guerra Mundial, las fuerzas británicas y otras potencias aliadas (incluyendo tropas etíopes) derrotaron a las fuerzas italianas que habían ocupado Etiopía en 1935 bajo la dirección de Benito Mussolini. En mayo de 1941, el emperador Haile Selassie regresó al trono durante los continuos combates guerrilleros de las fuerzas italianas y bajo la administración militar británica. En diciembre de 1944, el Reino Unido y Etiopía firmaron el segundo Acuerdo anglo-etíope, restableciendo la soberanía de Etiopía.',
     colorText: 'Verde, amarillo, rojo para tierra, paz, sacrificio; círculo azul, estrella dorada para unidad, futuro.',
     flagText: "La bandera de Etiopía presenta franjas horizontales de verde, amarillo y rojo, con un círculo azul y una estrella dorada en el centro. El verde representa la fertilidad de la tierra, el amarillo simboliza la libertad religiosa y la paz, y el rojo representa el sacrificio de aquellos que lucharon por la independencia del país. El círculo azul simboliza la unidad, y la estrella dorada representa el brillante futuro de la nación. La bandera de Etiopía es una de las más antiguas de África e inspiró muchas otras banderas africanas, particularmente a través de su uso de los colores panafricanos.",
-    colors: ['Red', 'Green', 'Blue', 'Yellow'],
+    colors: ['red', 'green', 'blue', 'yellow'],
     rgb: ['#ffc621', '#ef2118', '#298c08', '#006bc6', '#ffc621'],
   },
   {
@@ -42,7 +42,7 @@ export const countries: Country[] = [
     text: 'Con el estallido de la Segunda Guerra Mundial, Libia, entonces colonia italiana, se convirtió en el escenario de una brutal campaña en el norte de África que culminó en 1943, con la derrota italiana y la ocupación aliada de Libia. En diciembre de 1951, Libia declaró su independencia y se estableció como una monarquía constitucional. El descubrimiento de reservas de petróleo en 1959 causó resentimiento hacia Idris I, el monarca libio, lo que resultó en su deposición por parte de oficiales militares rebeldes en 1969. El líder del golpe, Muammar Gaddafi, estableció rápidamente un violento régimen autoritario que gobernó Libia hasta 2011.',
     colorText: 'Franjas rojas, negras, verdes, creciente, estrella para libertad, pueblo, Islam.',
     flagText: 'La bandera nacional se introdujo originalmente en 1951, tras el establecimiento del Reino de Libia. No se usó entre la caída del Reino en 1961 y la destitución de Muammar al-Gaddafi en 2011. La media luna y la estrella que aparecen en la banda negra se remontan a la bandera de la dinastía Senussi, que ayudó a llevar al país a la independencia.',
-    colors: ['Red', 'Green', 'White', 'Black'],
+    colors: ['red', 'green', 'white', 'black'],
     rgb: ['#239e46', '#e70013', '#fff'],
   },
   {
@@ -55,7 +55,7 @@ export const countries: Country[] = [
       'Franjas rojas, blancas, negras, triángulo verde para libertad, paz, tierra, Islam.',
     flagText:
       'Basada en la bandera de la Liberación Árabe de la Revolución Egipcia de 1952, la bandera de Sudán muestra los cuatro colores asociados con el panarabismo, un movimiento que enfatiza la unidad e independencia árabe.',
-    colors: ['Red', 'Green', 'White', 'Black'],
+    colors: ['red', 'green', 'white', 'black'],
     rgb: ['#fff', '#ff0000', '#009a00', '#000'],
   },
   {
@@ -68,7 +68,7 @@ colorText:
   'Campo rojo, círculo blanco, media luna, estrella para la sangre, la pureza, el Islam.',
 flagText:
   'La bandera de Túnez fue adoptada en 1831 para distinguir las flotas navales tunecinas de las flotas extranjeras. La bandera se mantuvo a lo largo del Protectorado francés y la independencia hasta el día de hoy. La media luna y la estrella de la bandera significan la religión oficial del país, el Islam.',
-    colors: ['Red', 'White'],
+    colors: ['red', 'white'],
     rgb: ['#e70013', '#fff'],
   },
   {
@@ -82,7 +82,7 @@ colorText:
   'Rojo por valor, pentagrama verde por Islam, unidad, y la real dinastía alauí.',
 flagText:
   'El fondo rojo de la bandera de Marruecos proviene de la dinastía ʿAlawi, que gobernó como sultanes desde el siglo XVII hasta que comenzó la ocupación francesa y española en 1912. El pentagrama verde en el centro de la bandera es conocido como el "Sello de Salomón" y representa los cinco pilares del Islam.',
-    colors: ['Red', 'Green'],
+    colors: ['red', 'green'],
     rgb: ['#c1272d', '#006233'],
   },
   {
@@ -94,7 +94,7 @@ flagText:
     colorText: 'Rojo, oro, verde por sangre, riqueza, agricultura; estrella negra por la libertad africana.',
     flagText:
       'Diseñada por la renombrada artista ghanesa Theodosia Okoh, la bandera emplea la imaginería decolonial incluyendo los colores del movimiento Pan-Africano y una estrella negra destinada a representar la unidad africana contra el colonialismo.',
-    colors: ['Red', 'Green', 'Yellow', 'Black'],
+    colors: ['red', 'green', 'yellow', 'black'],
     rgb: ['#006b3f', '#fcd116', '#ce1126', '#000'],
   },
   {
@@ -105,7 +105,7 @@ flagText:
     text: "Guinea estuvo gobernada por una serie de imperios africanos antes de que Francia la colonizara a finales del siglo XIX. El régimen colonial francés explotó los abundantes recursos naturales de Guinea con trabajo forzado y dura tributación. En 1958, la Cuarta República Francesa colapsó como resultado de su incapacidad para administrar Argelia y sus otras colonias. Con el establecimiento de la Quinta República Francesa en octubre de 1958, a las colonias se les dio la opción de establecer la independencia inmediata. A diferencia de muchas otras colonias francesas, la población de Guinea votó abrumadoramente por la independencia bajo el liderazgo de su primer presidente, Sékou Touré.",
     colorText: "Franjas rojas, amarillas y verdes por la lucha, la riqueza y la vegetación.",
     flagText:"Tras la independencia de Francia en 1958, Guinea adoptó los colores del movimiento panafricano para su bandera. Se dice que el rojo representa la sangre derramada durante la lucha por la independencia, el amarillo la riqueza mineral del país y el verde la vegetación del país.",
-    colors: ['Red', 'Green', 'Yellow'],
+    colors: ['red', 'green', 'yellow'],
     rgb: ['#ff0000', '#ff0', '#090'],
   },
   {
@@ -118,7 +118,7 @@ flagText:
       'Franjas verdes, rojas y amarillas para los bosques, la unidad, las sabanas; estrella para la unidad nacional.',
     flagText:
       "Las bandas de color verde, amarillo y rojo que aparecen en la bandera de Camerún hacen referencia respectivamente a los bosques del Sur, las sabanas del norte y la unidad nacional lograda a través de la independencia.",
-    colors: ['Red', 'Green', 'Yellow'],
+    colors: ['red', 'green', 'yellow'],
     rgb: ['#007a5e', '#ce1126', '#fcd116'],
   },
   {
@@ -131,7 +131,7 @@ flagText:
       'Verde, franjas amarillas, cuadrado rojo, estrella blanca para agricultura, riqueza, sacrificio, esperanza.',
     flagText:
       'Con cinco franjas distintas, la bandera de Togo representa las cinco regiones administrativas del país y al mismo tiempo enfatiza la unidad de la nación a través de la representación de una estrella blanca en la esquina superior izquierda.',
-    colors: ['Red', 'Green', 'Yellow', 'White'],
+    colors: ['red', 'green', 'yellow', 'white'],
     rgb: ['#ffe300', '#118600', '#d80000', '#fff'],
   },
   {
@@ -144,7 +144,7 @@ flagText:
       'Blanco, rojo por pureza, soberanía; verde para la esperanza y un futuro próspero.',
     flagText:
       "Los colores de la bandera son un homenaje a los pueblos de Madagascar. El rojo y el blanco eran los colores del Reino de Merina, un estado precolonial que luchó contra la colonización francesa. El verde representa a las poblaciones costeras que lucharon por la independencia.",
-    colors: ['Red', 'Green', 'White'],
+    colors: ['red', 'green', 'white'],
     rgb: ['#fc3d32', '#007e3a', '#fff'],
   },
   {
@@ -157,7 +157,7 @@ flagText:
       'Verde, amarillo, rayas rojas, estrella verde para el Islam, riqueza, sacrificio, unidad.',
     flagText:
       'Adoptada tras la independencia, la bandera senegalesa presenta los colores asociados con el movimiento panafricano y una estrella verde, cuyo color tiene un significado religioso para las tradiciones religiosas que se encuentran en Senegal.',
-    colors: ['Red', 'Green', 'Yellow'],
+    colors: ['red', 'green', 'yellow'],
     rgb: ['#0b7226', '#ff0', '#bc0000'],
   },
   {
@@ -170,7 +170,7 @@ flagText:
       'Azul por la paz, amarillo por los recursos, rojo por la lucha por la independencia, estrella por la unidad.',
     flagText:
       'La bandera actual se remonta a una ondeada entre 1961 y 1971, tras el establecimiento de la Segunda República. El resplandor rojo en diagonal representa la sangre derramada por los "mártires" de la República Democrática del Congo.',
-    colors: ['Red', 'Blue', 'Yellow'],
+    colors: ['red', 'blue', 'yellow'],
     rgb: ['#007fff', '#f7d618', '#ce1021'],
   },
   {
@@ -183,7 +183,7 @@ flagText:
       'Naranja, blanco, verde para la tierra, paz, esperanza; simboliza la identidad nacional.',
     flagText:
       "La bandera de Costa de Marfil presenta franjas de color naranja, blanco y verde, que representan las sabanas del país, los ríos Sassandra, Bandama y Kamo, y los exuberantes paisajes del sur, respectivamente.",
-    colors: ['Orange', 'Green', 'White'],
+    colors: ['orange', 'green', 'white'],
     rgb: ['#00cd00', '#ff9a00', '#fff'],
   },
   {
@@ -196,7 +196,7 @@ flagText:
       'Triángulos verdes, amarillos y rojos para bosques, amistad, independencia.',
     flagText:
       "Con los colores del movimiento panafricanista, la bandera de la República del Congo se adoptó por primera vez cuando el Congo francés obtuvo la independencia. El verde representa los bosques del país y el amarillo simboliza su riqueza.",
-    colors: ['Red', 'Green', 'Yellow'],
+    colors: ['red', 'green', 'yellow'],
     rgb: ['#ff0', '#00ca00', '#ff0000'],
   },
   {
@@ -209,7 +209,7 @@ flagText:
       'Campo azul claro, estrella blanca para el cielo, el océano, la unidad y la influencia de la ONU.',
     flagText:
       'El fondo azul de la bandera somalí honra a las Naciones Unidas, que ayudaron a la nación a lograr la independencia. Su "Estrella de la Unidad" blanca central presenta cinco puntas, que representan las regiones históricas ocupadas por el pueblo somalí.',
-    colors: ['Blue', 'White'],
+    colors: ['blue', 'white'],
     rgb: ['#40a6ff', '#fff'],
   },
   {
@@ -221,7 +221,7 @@ flagText:
     colorText: 'Rayas amarillas, rojas y verdes para la riqueza, el coraje, la esperanza.',
     flagText:
       'Reemplazando la bandera tricolor francesa en 1959, la bandera de Benin presenta de manera prominente los colores del movimiento panafricanista y la Agrupación Democrática Africana, un partido descolonial con sede en el África occidental francesa.',
-    colors: ['Red', 'Green', 'Yellow'],
+    colors: ['red', 'green', 'yellow'],
     rgb: ['#319400', '#ffd600', '#de2110'],
   },
   {
@@ -234,7 +234,7 @@ flagText:
       'Verde para la agricultura, blanco para la paz, que simboliza la prosperidad y la armonía.',
     flagText:
       'La bandera de Nigeria es una adaptación de una presentación ganadora diseñada en 1959 por Michael Taiwo Akinkunmi, un estudiante universitario. Las bandas verdes representan la riqueza agrícola y la banda blanca representa la paz y la unidad.',
-    colors: ['Green', 'White'],
+    colors: ['green', 'white'],
     rgb: ['#008753', '#FFFFFF'],
   },
   {
@@ -247,7 +247,7 @@ flagText:
       'Naranja, blanco, rayas verdes, círculo naranja para desierto, pureza, río, sol.',
     flagText:
       'La bandera de Níger representa las características geográficas importantes de la nación: el naranja denota el desierto del Sahara, el blanco simboliza la pureza del río Níger y el verde representa las regiones fértiles del sur.',
-    colors: ['Orange', 'Green', 'White'],
+    colors: ['orange', 'green', 'white'],
     rgb: ['#0db02b', '#fff', '#e05206'],
   },
   {
@@ -260,7 +260,7 @@ flagText:
       'Rayas verdes, amarillas, rojas para la esperanza, la pureza, la fuerza; simbolismo de la independencia.',
     flagText:
       'Al igual que otras naciones de África occidental anteriormente colonizadas por los franceses, Malí adoptó los colores del movimiento panafricano para su bandera. La máscara de Kanaga se eliminó de la bandera en 1961 debido a la oposición de ciertas sectas islámicas.',
-    colors: ['Red', 'Green', 'Yellow'],
+    colors: ['red', 'green', 'yellow'],
     rgb: ['#ff0000', '#009a00', '#ff0'],
   },
   {
@@ -273,7 +273,7 @@ flagText:
       'Rayas azules, amarillas y rojas para cielo, desierto, progreso; simboliza la independencia.',
     flagText:
       'Adoptada en 1959, mientras era miembro autónomo de la Comunidad Francesa, la bandera de Chad pretende fusionar la bandera tricolor de Francia y los colores del movimiento panafricanista.',
-    colors: ['Red', 'Blue', 'Yellow'],
+    colors: ['red', 'blue', 'yellow'],
     rgb: ['#000067', '#ff0000', '#ff0'],
   },
   {
@@ -286,7 +286,7 @@ flagText:
       'Rayas, banda roja, estrella amarilla para la libertad, la dignidad, la esperanza, la unidad, el futuro.',
     flagText:
       'Con cuatro bandas horizontales de blanco, azul, verde y amarillo unidas por una franja vertical roja, la bandera une tanto el pasado colonial de la República Centroafricana como el compromiso con el panafricanismo.',
-    colors: ['Red', 'Green', 'Blue', 'Yellow', 'White'],
+    colors: ['red', 'green', 'blue', 'yellow', 'white'],
     rgb: ['#00f', '#ff0', '#009a00', '#fff', '#f00'],
   },
   {
@@ -298,7 +298,7 @@ flagText:
     colorText: 'Franjas verdes, amarillas y azules para bosques, ecuador, océano.',
     flagText:
       'La bandera de Gabón alude a su paisaje y recursos naturales. La banda amarilla central representa el ecuador que atraviesa el país, así como la riqueza de minerales (principalmente oro) que se encuentran en todo el país. El verde representa los bosques y el azul, la costa atlántica.',
-    colors: ['Green', 'Blue', 'Yellow'],
+    colors: ['green', 'blue', 'yellow'],
     rgb: ['#ffe700', '#36a100', '#006dbc'],
   },
   {
@@ -310,7 +310,7 @@ flagText:
     colorText: 'Rayas rojas y verdes; estrella amarilla para revolución, esperanza, unidad.',
     flagText:
       'Al igual que otras naciones poscoloniales, la bandera de Burkina Faso emplea los colores asociados con el movimiento panafricanista. La estrella amarilla central representa la luz de la revolución decolonial.',
-    colors: ['Red', 'Green', 'Yellow'],
+    colors: ['red', 'green', 'yellow'],
     rgb: ['#de0000', '#35a100', '#fff300'],
   },
   {
@@ -323,7 +323,7 @@ flagText:
       'Campo verde, media luna amarilla, estrella para el Islam, progreso, futuro.',
     flagText:
       'La bandera de Mauritania une los colores del movimiento panafricano con una estrella y una media luna para reflejar el compromiso de Mauritania con la liberación africana y la religión del estado, el Islam.',
-    colors: ['Red', 'Green', 'Yellow'],
+    colors: ['red', 'green', 'yellow'],
     rgb: ['#cd2a3e', '#006233', '#ffc400'],
   },
   {
@@ -336,7 +336,7 @@ flagText:
       'Franjas verdes, blancas y azules para la agricultura, la unidad, el océano, el futuro.',
     flagText:
       'Tras la independencia, Sierra Leona adoptó una bandera tricolor: el verde representa los recursos naturales de la nación, el azul el Océano Atlántico y el Puerto de Freetown, y la unión nacional blanca.',
-    colors: ['Green', 'Blue', 'White'],
+    colors: ['green', 'blue', 'white'],
     rgb: ['#0000cd', '#fff'],
   },
   {
@@ -349,7 +349,7 @@ flagText:
       'Verde para la vegetación, amarillo para los minerales, negro para las personas, azul para el Océano Índico.',
     flagText:
       'En abril de 1964, las naciones de Tanganica y Zanzíbar se unieron para formar Tanzania. Las banderas de cada nación se fusionaron para crear la nueva bandera nacional. La franja negra diagonal de la bandera representa al pueblo de Tanzania.',
-    colors: ['Green', 'Blue', 'Yellow', 'Black'],
+    colors: ['green', 'blue', 'yellow', 'black'],
     rgb: ['#09f', '#090', '#ff0', '#000'],
   },
   {
@@ -362,7 +362,7 @@ flagText:
       'Azul, amarillo, franjas verdes, sol para la paz, el desarrollo, la esperanza, la unidad.',
     flagText:
       'Se izó una nueva bandera ruandesa en 2001, ya que la bandera anterior, para muchos, se había asociado con el extremismo hutu y el genocidio ruandés. La bandera presenta el exuberante paisaje y los recursos naturales del país bañados por la luz del sol.',
-    colors: ['Green', 'Blue', 'Yellow'],
+    colors: ['green', 'blue', 'yellow'],
     rgb: ['#20603d', '#fad201', '#00a1de', '#e5be01'],
   },
   {
@@ -374,7 +374,7 @@ flagText:
     colorText: 'Cruz diagonal, estrellas para la independencia, la unidad, la esperanza, la paz.',
     flagText:
       'Las estrellas dispuestas en el centro de la bandera de Burundi reflejan el lema de la nación "unidad, trabajo y progreso" y los tres principales grupos étnicos del país: hutu, tutsi y twa.',
-    colors: ['Red', 'Green', 'White'],
+    colors: ['red', 'green', 'white'],
     rgb: ['#18b637', '#cf0921', '#fff'],
   },
   {
@@ -387,7 +387,7 @@ flagText:
       'Verde, blanco para el Islam, paz; estrella roja y media luna por la independencia, la fe.',
     flagText:
       'Adoptada en 1962, la bandera de Argelia incluye referencias (la estrella y la media luna y el uso del color verde) a la religión dominante del país, el Islam.',
-    colors: ['Red', 'Green', 'White'],
+    colors: ['red', 'green', 'white'],
     rgb: ['#fff', '#006233', '#d21034'],
   },
   {
@@ -400,7 +400,7 @@ flagText:
       'Rayas negras, amarillas, rojas para gente, sol, hermandad; la grulla simboliza la naturaleza pacífica.',
     flagText:
       'La grulla con cresta que aparece en la bandera de Uganda fue seleccionada para su uso en el British Blue Ensign y las insignias usadas por el ejército de Uganda mientras Uganda era un protectorado del Imperio Británico. La pata levantada de la grúa representa el avance de Uganda.',
-    colors: ['Red', 'Yellow', 'White', 'Black'],
+    colors: ['red', 'yellow', 'white', 'black'],
     rgb: ['#ffe700', '#de3908', '#fffdff', '#de3108', '#9ca69c', '#fff'],
   },
   {
@@ -413,7 +413,7 @@ flagText:
       'Negro, rojo, verde para la gente, el sacrificio, la agricultura; blanco por la paz; escudo para la defensa.',
     flagText:
       'El diseño de la bandera de Kenia se extrae del de la Unión Nacional Africana de Kenia, el partido que luchó por la independencia y luego estableció un gobierno de partido único en el país. El centro de la bandera presenta un escudo Massai y dos lanzas cruzadas, lo que significa la defensa de la soberanía y los valores de la nación.',
-    colors: ['Red', 'Green', 'White', 'Black'],
+    colors: ['red', 'green', 'white', 'black'],
     rgb: ['#fff', '#060', '#b00', '#000'],
   },
   {
@@ -426,7 +426,7 @@ flagText:
       'Rayas negras, rojas, verdes, sol naciente para las personas, sacrificio, recursos, libertad.',
     flagText:
       'Izada por primera vez en la independencia, la bandera de Malawi se basó en la del principal partido político del país, el Partido del Congreso de Malawi. Presenta un sol rojo sobre un fondo negro, lo que significa la esperanza de la independencia africana.',
-    colors: ['Red', 'Green', 'Black'],
+    colors: ['red', 'green', 'black'],
     rgb: ['#f41408', '#21873b', '#f31509'],
   },
   {
@@ -439,7 +439,7 @@ flagText:
       'Campo verde, rojo, negro, bandas naranjas, águila para recursos, lucha, riqueza, resiliencia.',
     flagText:
       'Los colores empleados en la bandera de Zambia corresponden a los del Partido de Independencia Nacional Unido, un partido líder en el movimiento de independencia de Rhodesia del Norte y el partido político gobernante entre la independencia en 1964 y 1991.',
-    colors: ['Orange', 'Red', 'Green', 'Black'],
+    colors: ['orange', 'red', 'green', 'black'],
     rgb: ['#198a00', '#ef7d00', '#de2010', '#000'],
   },
   {
@@ -452,7 +452,7 @@ flagText:
       'Rayas rojas, azules, verdes, bordes blancos para sol, río, agricultura, unidad.',
     flagText:
       "Adoptado tras la independencia de Gambia en 1965, el diseño tricolor de la bandera alude a las características regionales: rojo para la sabana, azul para el río Gambia y verde para las tierras agrícolas.",
-    colors: ['Red', 'Green', 'Blue', 'White'],
+    colors: ['red', 'green', 'blue', 'white'],
     rgb: ['#ff0000', '#fff', '#009', '#090'],
   },
   {
@@ -464,7 +464,7 @@ flagText:
     colorText: 'Campo azul, rayas negras y blancas para el agua, armonía étnica.',
     flagText:
       'Creada para la independencia de Botswana en 1966, la bandera pretendía contrastar con los colores y el diseño de la vecina Sudáfrica, donde el apartheid seguía siendo ley.',
-    colors: ['Blue', 'White', 'Black'],
+    colors: ['blue', 'white', 'black'],
     rgb: ['#00cbff', '#fff', '#000'],
   },
   {
@@ -477,7 +477,7 @@ flagText:
       'Azul, blanco, rayas verdes, sombrero Basotho para el cielo, la paz, la tierra, la cultura.',
     flagText:
       'Rediseñada en 2006, la bandera de Lesotho presenta un mokorotlo negro, un sombrero de paja basotho, destinado a transmitir la paz entre la gente del país y su vecina Sudáfrica. El mokorotlo reemplazó el escudo de piel de animal y las armas tradicionales que aparecían anteriormente en la bandera.',
-    colors: ['Green', 'Blue', 'White', 'Black'],
+    colors: ['green', 'blue', 'white', 'black'],
     rgb: ['#fff', '#009543', '#00209f', '#000'],
   },
   {
@@ -490,7 +490,7 @@ flagText:
       'Franjas rojas, azules, amarillas y verdes para la independencia, el océano, la luz, la agricultura.',
     flagText:
       'Diseñado por el maestro de escuela jubilado Gurudutt Moher, las cuatro franjas de la bandera representan la unificación de los cuatro partidos políticos que existían en el momento de la independencia de Mauricio en 1986.',
-    colors: ['Red', 'Green', 'Blue', 'Yellow'],
+    colors: ['red', 'green', 'blue', 'yellow'],
     rgb: ['#00a04d', '#151f6d', '#ee2737', '#ffcd00'],
   },
   {
@@ -503,7 +503,7 @@ flagText:
       'Azul, amarillo, rayas rojas, escudo, lanzas para la paz, la riqueza, la lucha, la protección.',
     flagText:
       'Después de que Esuatini obtuviera la independencia del Imperio Británico, la nación adoptó una bandera basada en una regalada por el Rey Sobhuza II al Swazi Pioneer Corps, que se había unido a las Fuerzas Aliadas, en 1941. La bandera presenta una representación de un escudo tradicional hecho de negro -y-piel de buey blanca estirada sobre un marco de madera.',
-    colors: ['Red', 'Green', 'Blue', 'Yellow', 'White', 'Black'],
+    colors: ['red', 'green', 'blue', 'yellow', 'white', 'black'],
     rgb: ['#3e5eb9', '#ffd900', '#b10c0c', '#fff', '#333', '#b3b3b3'],
   },
   {
@@ -516,7 +516,7 @@ flagText:
       'Rayas, triángulo, escudo de armas para la vegetación, la paz, la lucha, el mar, la unidad.',
     flagText:
       'Tras la destitución de Francisco Nguema en 1979, el escudo de armas de Guinea Ecuatorial fue restituido a la bandera. Con un árbol de algodón de seda conocido como "árbol de Dios", el escudo de armas establece el vínculo histórico entre la región y Portugal.',
-    colors: ['Red', 'Green', 'Blue', 'White'],
+    colors: ['red', 'green', 'blue', 'white'],
     rgb: [
       '#fff',
       '#e32118',
@@ -538,7 +538,7 @@ flagText:
       'Rayas amarillas, verdes, banda roja, estrella negra para la riqueza, la agricultura, la lucha, la unidad.',
     flagText:
       'Inspirándose en el diseño de la bandera de Ghana, la bandera de Guinea-Bissau presenta los colores del movimiento panafricano y una estrella negra, símbolo de la lucha anticolonial.',
-    colors: ['Red', 'Green', 'Yellow', 'Black'],
+    colors: ['red', 'green', 'yellow', 'black'],
     rgb: ['#ce1126', '#fcd116', '#009e49'],
   },
   {
@@ -551,7 +551,7 @@ flagText:
       'Rayas, triángulo, estrella, media luna para personas, paz, Islam, lucha.',
     flagText:
       'La bandera de la República Árabe Saharaui Democrática (reclamada por el Sáhara Occidental) consta de tres franjas horizontales de color negro, blanco y verde, con un triángulo isósceles rojo en el lado izquierdo. Una estrella roja de cinco puntas y una media luna aparecen en el centro de la franja blanca. El negro representa al pueblo, el blanco significa paz y optimismo, el verde simboliza el Islam y el rojo representa la lucha por la independencia. La estrella y la media luna son símbolos islámicos tradicionales.',
-    colors: ['Red', 'Green', 'White', 'Black'],
+    colors: ['red', 'green', 'white', 'black'],
     rgb: ['#007a3d', '#fff', '#c4111b', '#000'],
   },
   {
@@ -564,7 +564,7 @@ flagText:
       'Rayas, triángulo para agricultura, paz, África, riqueza, independencia; símbolos para el socialismo, la educación, la defensa.',
     flagText:
       'El triángulo rojo de la bandera de Mozambique muestra una estrella amarilla de cinco puntas, que refleja los valores marxistas del país tras la independencia en 1975. La estrella está superpuesta con un libro abierto, una azada y un rifle Kalashnikov de pie, respectivamente, por el compromiso de Mozambique con la educación, la agricultura, y defensa de la libertad.',
-    colors: ['Red', 'Green', 'Yellow', 'Black'],
+    colors: ['red', 'green', 'yellow', 'black'],
     rgb: ['#009a00', '#fff', '#ffca00', '#ff0000', '#000'],
   },
   {
@@ -577,7 +577,7 @@ flagText:
       'Campo azul, franja roja, círculo de estrellas para el océano, lucha, unidad.',
     flagText:
       'Como reflejo de su condición de nación insular, la bandera de Cabo Verde presenta un círculo de diez estrellas como una cadena de islas contra el fondo azul del océano y el cielo.',
-    colors: ['Red', 'Blue', 'Yellow', 'White'],
+    colors: ['red', 'blue', 'yellow', 'white'],
     rgb: ['#fff', '#081873', '#de3929', '#ffce08'],
   },
   {
@@ -590,7 +590,7 @@ flagText:
       'Rayas, triángulo verde, media luna, estrellas para islas, Islam, unidad.',
     flagText:
       'La bandera de las Islas hace referencia al Islam, la religión mayoritaria, en forma de luna creciente, estrellas y un recuadro verde. Las cuatro estrellas y las franjas horizontales reflejan las distintas islas que componen las Comoras.',
-    colors: ['Red', 'Green', 'Blue', 'Yellow', 'White'],
+    colors: ['red', 'green', 'blue', 'yellow', 'white'],
     rgb: ['#ff0', '#fff', '#be0027', '#3b5aa3', '#239e46'],
   },
   {
@@ -603,7 +603,7 @@ flagText:
       'Rayas, triángulo, estrellas para la vegetación, cacao, lucha, islas.',
     flagText:
       'La bandera de Santo Tomé y Príncipe está inspirada en la bandera del Movimiento para la Liberación de Santo Tomé y Príncipe, la principal fuerza independentista del país. La bandera presenta los colores y la estrella negra asociados con el Movimiento Panafricano.',
-    colors: ['Red', 'Green', 'Blue', 'Yellow', 'Black'],
+    colors: ['red', 'green', 'blue', 'yellow', 'black'],
     rgb: ['#12ad2b', '#ffce00', '#d21034', '#000'],
   },
   {
@@ -616,7 +616,7 @@ flagText:
       'Rojo, negro por la lucha por la independencia, África; emblema amarillo para la industria, la agricultura.',
     flagText:
       "La bandera de Angola refleja la del Movimiento Popular para la Liberación de Angola, con el negro simbolizando la unidad africana y el rojo representando la sangre de los que lucharon por la independencia.",
-    colors: ['Red', 'Yellow', 'Black'],
+    colors: ['red', 'yellow', 'black'],
     rgb: ['#ff0000', '#ffec00', '#fe0'],
   },
   {
@@ -629,7 +629,7 @@ flagText:
       'Bandas oblicuas para el cielo, el mar, la unidad, la justicia social, el medio ambiente.',
     flagText:
       "Los colores de la bandera de Seychelles representan los elementos esenciales para el éxito de la nación. El azul representa el mar, el amarillo simboliza el sol, el rojo representa la determinación del pueblo, el blanco refleja la armonía y el verde representa la tierra fértil.",
-    colors: ['Red', 'Green', 'Blue', 'Yellow', 'White'],
+    colors: ['red', 'green', 'blue', 'yellow', 'white'],
     rgb: ['#fff', '#d92223', '#fcd955', '#003d88', '#007a39'],
   },
   {
@@ -642,7 +642,7 @@ flagText:
       'Azul, franjas verdes, triángulo blanco, estrella roja para cielo, tierra, paz, unidad.',
     flagText:
       'Inspirándose en la bandera del Front de Libération de la Côte des Somalis, una organización nacionalista activa en las décadas de 1960 y 1970, la bandera de Djibouti representa a los pueblos indígenas afar y somalí mediante el uso de azul y verde.',
-    colors: ['Red', 'Green', 'Blue', 'White'],
+    colors: ['red', 'green', 'blue', 'white'],
     rgb: ['#0c0', '#69f', '#fffefe', '#ff0000'],
   },
   {
@@ -655,7 +655,7 @@ flagText:
       'Rayas, triángulo, estrella, pájaro para agricultura, riqueza, independencia, historia, paz, aspiraciones.',
     flagText:
       'La bandera de Zimbabue está adornada con el "pájaro de Zimbabue", cuya imagen se deriva de una serie de esculturas de esteatita encontradas entre los restos de la ciudad medieval de Gran Zimbabue.',
-    colors: ['Red', 'Green', 'Yellow', 'White', 'Black'],
+    colors: ['red', 'green', 'yellow', 'white', 'black'],
     rgb: ['#006400', '#ffd200', '#d40000', '#000', '#fff', '#fc0'],
   },
   {
@@ -668,7 +668,7 @@ flagText:
       'Banda roja diagonal, triángulos, sol por cielo, lucha, vegetación, unidad, paz.',
     flagText:
       'Adoptada en 1994, coincidiendo con el fin del Apartheid y las primeras elecciones generales de Sudáfrica en las que todos los ciudadanos podían votar, la bandera presenta seis colores que podrían asociarse de diversas formas con diversos pueblos y organizaciones sudafricanos. El único simbolismo explícito que aparece en la bandera es la forma de "Y" verde que pretende reflejar la integración de diversos elementos de la sociedad sudafricana.',
-    colors: ['Red', 'Green', 'Blue', 'Yellow', 'White'],
+    colors: ['red', 'green', 'blue', 'yellow', 'white'],
     rgb: ['#fff', '#3662a2', '#38a100', '#c70000', '#ffe700'],
   },
   {
@@ -681,7 +681,7 @@ flagText:
       'La forma de Y y los seis colores significan una población diversa y caminos históricos convergentes.',
     flagText:
       'La bandera de Sudáfrica presenta seis colores dispuestos en forma de Y horizontal. Los colores incluyen negro, verde y amarillo en la Y superior, y rojo, blanco y azul en la Y inferior. El negro, el verde y el amarillo representan al Congreso Nacional Africano (ANC), que luchó por el fin del apartheid. El rojo, el blanco y el azul se derivan de las banderas del Reino Unido y la Compañía Holandesa de las Indias Orientales, que colonizaron Sudáfrica. Los colores y la forma de Y significan la unidad de la diversa población sudafricana y la convergencia de sus diferentes trayectorias históricas.',
-    colors: ['Red', 'Green', 'Blue', 'Yellow', 'White', 'Black'],
+    colors: ['red', 'green', 'blue', 'yellow', 'white', 'black'],
     rgb: ['#000c8a', '#e1392d', '#ffb915', '#007847', '#ffffff', '#000000'],
   },
   {
@@ -694,7 +694,7 @@ flagText:
       'Triángulos rojos, verdes, azules, sol amarillo para la independencia, la fertilidad, el mar, la unidad.',
     flagText:
       'El verde, amarillo y rojo de la bandera de Etiopía fueron adoptados por varias organizaciones panafricanistas y naciones africanas recientemente independientes en homenaje a la resistencia de Etiopía a la ocupación colonial. Se dice que la estrella amarilla de cinco puntas que aparece en la bandera representa la igualdad de todos los etíopes.',
-    colors: ['Red', 'Green', 'Blue', 'Yellow'],
+    colors: ['red', 'green', 'blue', 'yellow'],
     rgb: ['#be0027', '#b4d7f4', '#239e46', '#f3e295'],
   },
   {
@@ -707,7 +707,7 @@ flagText:
       'Rayas, triángulo, estrella para la gente, la libertad, la agricultura, la unidad, el río Nilo, el futuro.',
     flagText:
       'Tras la conclusión de la Segunda Guerra Civil de Sudán en 2005 (6 años antes de la independencia), Sudán del Sur adoptó una bandera con los colores negro, blanco, verde y rojo asociados con el panarabismo. El triángulo azul sobre el que se coloca una estrella amarilla representa las aguas del río Nilo y la unidad nacional, respectivamente.',
-    colors: ['Red', 'Green', 'Blue', 'Yellow', 'White', 'Black'],
+    colors: ['red', 'green', 'blue', 'yellow', 'white', 'black'],
     rgb: ['#078930', '#fff', '#da121a', '#0f47af', '#fcdd09'],
   }
 ]

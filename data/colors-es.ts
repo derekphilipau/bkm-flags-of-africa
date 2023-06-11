@@ -1,5 +1,6 @@
 export const colors = [
   {
+    id: 'white',
     name: 'Blanco',
     text: 'A menudo simboliza la paz, la pureza y la unidad. También puede representar la armonía y la convivencia pacífica de diferentes grupos étnicos dentro del país.',
     cssColor: 'text-white',
@@ -15,6 +16,7 @@ export const colors = [
     ],
   },
   {
+    id: 'red',
     name: 'Rojo',
     text: 'A menudo simboliza la sangre derramada durante la lucha por la independencia o la libertad, así como la valentía y el valor. También puede representar la fuerza, la unidad y la determinación del pueblo.',
     cssColor: 'text-red-600',
@@ -55,6 +57,7 @@ export const colors = [
     ],
   },
   {
+    id: 'orange',
     name: 'Naranja',
     text: 'A menudo representa el Desierto del Sahara, que cubre gran parte del norte del continente. También puede simbolizar el valor y la persistencia del pueblo.',
     cssColor: 'text-orange-600',
@@ -80,6 +83,7 @@ export const colors = [
     ],
   },
   {
+    id: 'yellow',
     name: 'Amarillo',
     text: 'Frecuentemente representa el sol, la calidez y la luz. También puede simbolizar la riqueza, la prosperidad y los recursos minerales que se encuentran en el país.',
     cssColor: 'text-yellow-400',
@@ -99,6 +103,7 @@ export const colors = [
     ],
   },
   {
+    id: 'green',
     name: 'Verde',
     text: 'Normalmente representa la agricultura, los recursos naturales y la exuberante vegetación que se encuentra en todo el continente. También puede significar crecimiento, esperanza y progreso para la nación.',
     cssColor: 'text-green-600',
@@ -139,6 +144,7 @@ export const colors = [
     ],
   },
   {
+    id: 'blue',
     name: 'Azul',
     text: 'Comúnmente simboliza el agua, el cielo o el mar, que son características importantes para muchos países africanos. También puede significar paz, estabilidad y tranquilidad.',
     cssColor: 'text-blue-600',
@@ -169,6 +175,7 @@ export const colors = [
     ],
   },
   {
+    id: 'black',
     name: 'Negro',
     text: 'Típicamente simboliza a la gente y su identidad, así como al continente africano en sí. También puede representar fuerza, resistencia y determinación.',
     cssColor: 'text-white',

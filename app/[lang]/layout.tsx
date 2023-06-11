@@ -61,7 +61,7 @@ export default async function RootLayout({
         <div className="lg:pl-72">
           <main className="">{children}</main>
         </div>
-        <Footer />
+        <Footer dict={dict} lang={lang} />
       </body>
     </html>
   );

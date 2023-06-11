@@ -1,5 +1,6 @@
 export const colors = [
   {
+    id: 'white',
     name: 'White',
     text: 'Often signifies peace, purity, and unity. It can also represent harmony and the peaceful coexistence of different ethnic groups within the country.',
     cssColor: 'text-white',
@@ -15,6 +16,7 @@ export const colors = [
     ],
   },
   {
+    id: 'red',
     name: 'Red',
     text: 'Often symbolizes the blood shed during the struggle for independence or freedom, as well as bravery and valor. It can also represent the strength, unity, and determination of the people.',
     cssColor: 'text-red-600',
@@ -55,6 +57,7 @@ export const colors = [
     ],
   },
   {
+    id: 'orange',
     name: 'Orange',
     text: 'Often represents the Sahara Desert, which covers much of the northern part of the continent. It can also symbolize the courage and persistence of the people.',
     cssColor: 'text-orange-600',
@@ -80,6 +83,7 @@ export const colors = [
     ],
   },
   {
+    id: 'yellow',
     name: 'Yellow',
     text: 'Frequently represents the sun, warmth, and light. It can also symbolize wealth, prosperity, and mineral resources found in the country.',
     cssColor: 'text-yellow-400',
@@ -99,6 +103,7 @@ export const colors = [
     ],
   },
   {
+    id: 'green',
     name: 'Green',
     text: 'Typically represents agriculture, natural resources, and the lush vegetation found across the continent. It can also signify growth, hope, and progress for the nation.',
     cssColor: 'text-green-600',
@@ -139,6 +144,7 @@ export const colors = [
     ],
   },
   {
+    id: 'blue',
     name: 'Blue',
     text: 'Commonly symbolizes water, the sky, or the sea, which are important features for many African countries. It can also signify peace, stability, and tranquility.',
     cssColor: 'text-blue-600',
@@ -169,6 +175,7 @@ export const colors = [
     ],
   },
   {
+    id: 'black',
     name: 'Black',
     text: 'Typically symbolizes the people and their identity, as well as the African continent itself. It can also represent strength, resilience, and determination.',
     cssColor: 'text-white',
