@@ -1,12 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { countries } from '@/data/countries';
-import { getDictionary } from '@/dictionaries/dictionaries';
+import { countries as countriesEn } from '@/data/countries-en';
+import { countries as countriesEs } from '@/data/countries-es';
+import { getDictionary } from '@/get-dictionary';
 
 import { BkmLogo } from '@/components/bkm-logo';
 
-export default function Page() {
-  const dict = getDictionary();
+export default async function Page({ params: { lang }, searchParams }) {
+  const dict = await getDictionary(lang);
+  const countries = lang === 'es' ? countriesEs : countriesEn;
 
   const countriesByYear = {};
   countries.forEach((country) => {
@@ -22,12 +24,10 @@ export default function Page() {
     <div className="mb-24 lg:py-6  lg:pr-4">
       <div className="px-4 lg:px-0">
         <h2 className="text-6xl font-semibold lg:text-8xl">
-          Timeline of Independence
+          {dict['timeline.title']}
         </h2>
         <p className="mt-4 mb-8 text-4xl text-neutral-300">
-          The timeline presented here offers a glimpse into the journey of each
-          of Africa’s fifty-four nations toward independence as well as the
-          aftermath of decolonization in the decades that followed.
+          {dict['timeline.text']}
         </p>
       </div>
       <div className="w-full">
@@ -35,9 +35,9 @@ export default function Page() {
           <div className="absolute left-1/2 hidden h-full w-1 -translate-x-1/2 bg-blue-300 lg:block"></div>
           {Object.keys(countriesByYear).map((year, index) => (
             <div className="mt-6 lg:mt-0 lg:mb-4" key={index}>
-              <div className="sticky top-2 mb-6 grid w-full grid-cols-1">
+              <div className="sticky top-6 mb-6 grid w-full grid-cols-1">
                 <div className="flex w-full justify-center">
-                  <div className="flex h-24 w-24 items-center justify-center rounded-full border-4 border-white bg-blue-500 text-4xl font-bold lg:translate-y-0">
+                  <div className="flex h-24 w-24 items-center justify-center rounded-full bg-africamaps text-4xl font-bold text-black lg:translate-y-0">
                     <a href={`#timeline-${year}`}>{year}</a>
                   </div>
                 </div>

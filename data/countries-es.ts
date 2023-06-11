@@ -1,3 +1,5 @@
+import type { Country } from '@/types'
+
 export const countries: Country[] = [
   {
     code: 'lr',
@@ -39,7 +41,7 @@ export const countries: Country[] = [
     date: '24 de diciembre de 1951, de Francia y el Reino Unido',
     text: 'Con el estallido de la Segunda Guerra Mundial, Libia, entonces colonia italiana, se convirtió en el escenario de una brutal campaña en el norte de África que culminó en 1943, con la derrota italiana y la ocupación aliada de Libia. En diciembre de 1951, Libia declaró su independencia y se estableció como una monarquía constitucional. El descubrimiento de reservas de petróleo en 1959 causó resentimiento hacia Idris I, el monarca libio, lo que resultó en su deposición por parte de oficiales militares rebeldes en 1969. El líder del golpe, Muammar Gaddafi, estableció rápidamente un violento régimen autoritario que gobernó Libia hasta 2011.',
     colorText: 'Franjas rojas, negras, verdes, creciente, estrella para libertad, pueblo, Islam.',
-    flagText: 'La bandera nacional fue introducida originalmente en 1951, tras la creación del Reino de Libia. No fue utilizada entre la caída del Reino en 1961 y la deposición de Muammar al-Gaddafi en 2011. La luna creciente y la estrella que aparecen en la franja negra hacen referencia a la bandera de la dinastía Sen
+    flagText: 'La bandera nacional se introdujo originalmente en 1951, tras el establecimiento del Reino de Libia. No se usó entre la caída del Reino en 1961 y la destitución de Muammar al-Gaddafi en 2011. La media luna y la estrella que aparecen en la banda negra se remontan a la bandera de la dinastía Senussi, que ayudó a llevar al país a la independencia.',
     colors: ['Red', 'Green', 'White', 'Black'],
     rgb: ['#239e46', '#e70013', '#fff'],
   },

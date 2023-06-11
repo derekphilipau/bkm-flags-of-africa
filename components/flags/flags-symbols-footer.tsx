@@ -1,22 +1,12 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { countries } from '@/data/countries';
+import { countries } from '@/data/countries-en';
 
-import { Icons } from './icons';
+import { Icons } from '../icons';
 
-export function SymbolsFooter() {
+export function FlagsSymbolsFooter() {
   const router = useRouter();
-
-  function clickYear(year?: number) {
-    if (!year) {
-      return router.push('/timeline');
-    }
-    router.push(`/timeline#timeline-${year}`);
-  }
-
-  // Get unique years in timeline:
-  const years = [...new Set(countries.map((country) => country.year))];
 
   return (
     <div className="h-full px-6">

@@ -1,23 +1,17 @@
-'use client';
-
 import Image from 'next/image';
-import { useRouter } from 'next/navigation';
-import { countries } from '@/data/countries';
-import { getDictionary } from '@/dictionaries/dictionaries';
+import { countries as countriesEn } from '@/data/countries-en';
+import { countries as countriesEs } from '@/data/countries-es';
+import type { Locale } from '@/i18n-config';
+import Link from 'next/link';
 
-export function Flags({ color, info }: { color?: string; info?: boolean }) {
-  const dict = getDictionary();
-  const router = useRouter();
+export function Flags({ color, info, lang }: { color?: string; info?: boolean; lang: Locale }) {
+  const countries = lang === 'es' ? countriesEs : countriesEn;
 
   let filteredCountries = countries;
   if (color) {
     filteredCountries = countries.filter((country) =>
       country.colors.includes(color)
     );
-  }
-
-  function clickFlag(countryCode: string, countryName: string) {
-    router.push(`/flag/${countryCode}/${countryName}`);
   }
 
   return (
@@ -34,8 +28,8 @@ export function Flags({ color, info }: { color?: string; info?: boolean }) {
                 info ? 'p-3' : ''
               }`}
               key={index}
-              onClick={() => clickFlag(country.code, country.name)}
             >
+              <Link href={`/flag/${country.code}/${country.name}`}>
               <div className="relative">
                 <Image
                   src={`/img/flags/${country.code}.svg`}
@@ -59,6 +53,7 @@ export function Flags({ color, info }: { color?: string; info?: boolean }) {
                   </p>
                 </div>
               )}
+              </Link>
             </div>
           )
       )}

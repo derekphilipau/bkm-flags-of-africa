@@ -1,11 +1,16 @@
-import { colors } from '@/data/colors';
+import { colors as colorsEn } from '@/data/colors-en';
+import { colors as colorsEs } from '@/data/colors-es';
 import { flagSymbols } from '@/data/symbols';
 
 import { BkmLogo } from '@/components/bkm-logo';
 import { Flags } from '@/components/flags/flags';
 import { PageWrapper } from '@/components/page-wrapper';
+import { getDictionary } from '@/get-dictionary';
 
-export default async function Page({ params, searchParams }) {
+export default async function Page({ params: { lang }, searchParams }) {
+  const dict = await getDictionary(lang)
+  const colors = lang === 'es' ? colorsEs : colorsEn;
+
   const color = searchParams?.color;
   const symbol = searchParams?.symbol;
   const flagSymbol = flagSymbols.find((s) => s.name === symbol);
@@ -37,8 +42,8 @@ export default async function Page({ params, searchParams }) {
               </p>
             )}
           </>
-        )}
-        <Flags color={color} info={true} />
+      )}
+        <Flags color={color} info={true} lang={lang} />
         <BkmLogo />
       </div>
     </PageWrapper>

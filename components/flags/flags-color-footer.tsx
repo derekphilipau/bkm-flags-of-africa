@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { colors } from '@/data/colors';
+import { colors } from '@/data/colors-en';
 
 import { BirdIcon } from '../bird-icon';
 import { Icons } from '../icons';
@@ -38,7 +38,7 @@ const flagSymbols = [
   },
 ];
 
-export function FlagsFooter() {
+export function FlagsColorFooter() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const currentColor = searchParams.get('color');
