@@ -1,24 +1,18 @@
 # bkm-flags-of-africa
 
-Prototype resource for information about the flags of Africa.
-
-## Demo
-
-This project has been deployed on Vercel at https://bkm-flags-of-africa.vercel.app/
+Prototype resource for information about the flags of Africa and independence.
 
 ## Next.js template
 
-Based on https://github.com/shadcn/next-template ([Website](https://template.shadcn.com/), [UI Components](https://ui.shadcn.com/)),
-which is an implementation of [Radix UI](https://www.radix-ui.com/) with [Tailwind](https://tailwindcss.com/) and other helpful utilities.
+Based on https://github.com/shadcn/next-template ([Website](https://template.shadcn.com/), [UI Components](https://ui.shadcn.com/)).
 
 ## Features
 
-- Embedded JSON-LD (Schema.org [VisualArtwork](https://schema.org/VisualArtwork)) for better SEO and sharing
-- Meta & OG meta tags
-- [lucide-react icons](https://github.com/lucide-icons/lucide)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [next-themes](https://github.com/pacocoursey/next-themes) dark/light modes
-- [@next/font](https://nextjs.org/docs/api-reference/next/font) font loading
+- Flag-based navigation
+- Filter by color or symbol
+- Independence timeline
+- Internationalization (English, Spanish)
+- Dynamic Africa countries map
 
 ## Installation & Running
 
@@ -31,3 +25,11 @@ If you have not yet loaded the Elasticsearch data, you should see an error on th
 ## License
 
 Licensed under the [MIT license](./LICENSE.md).
+
+## Screenshots
+
+![Screenshot of the home page](./doc/foa1.png)
+
+![Screenshot of independence timeline](./doc/foa2.jpg)
+
+![Screenshot of country page](./doc/foa3.jpg)
